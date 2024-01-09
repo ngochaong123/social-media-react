@@ -75,3 +75,44 @@
   margin-left: 10px;
   cursor: pointer; 
 }
+
+.sidebar-log-right{
+  position: fixed;
+  right: 0;
+  width: 250px;
+  height: 100vh;
+  border-left: 1px solid #c9bebe;
+}
+
+.nametab{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px 0 0 10px; 
+}
+
+.sidebar-button{
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 0 20px;
+  align-items: center;
+  border: none;
+  background: #E1E1E4;
+  padding: 10px;
+  padding-right: 80px;
+  border-radius: 7px;
+}
+
+.sidebar-button:hover{
+  opacity: 0.7;
+  background: #fcfcfc8f;
+}
+
+.sidebar-button:active{
+  opacity: 0.6;
+}
+
+.sidebar-icon{
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+}

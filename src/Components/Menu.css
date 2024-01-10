@@ -3,13 +3,13 @@
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-  height: 100px;
+  height: 80px;
+  box-shadow: 10px 0px 4px #888888, -1em 0 .4em #888888;
 }
 
 .Logo-Log {
   width: 150px;
   height: 150px;
-
 }
 
 .input-log-container {
@@ -21,7 +21,7 @@
 
 .input-log {
   width: 400px;
-  height: 35px;
+  height: 40px;
   border: 1px solid #ccc;
   border: none;
   border-radius: 20px;
@@ -32,16 +32,13 @@
   border: none; 
 }
 
-
 .search-icon {
-  right: 8px; 
-  padding: 9px;
+  padding: 4px 8px 1px 10px;
 }
 
 .search-icon img {
   width: 17px; 
   height: 17px; 
-  padding-top: 1px;
 }
 
 .enter-log-container {
@@ -54,8 +51,8 @@
 .enter-log {
   margin-left: 10px; 
   background-color: #E4E6EB;
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   margin: 20px;
   border-radius: 90px;
 }
@@ -69,9 +66,98 @@
 }
 
 .icon-log {
-  width: 30px; 
-  height: 30px;
-  margin-top: 10px;
-  margin-left: 10px;
+  width: 25px; 
+  height: 25px;
+  margin-top: 7px;
+  margin-left: 8px;
   cursor: pointer; 
+}
+
+.sidebar-log-left{
+  position: fixed;
+  left: 0;
+  width: 200px;
+  height: 100vh;
+  border-right: 1px solid #c9bebe;
+}
+
+.nametab{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px 0 0 10px; 
+}
+
+.sidebar-button-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0 0 20px;
+  align-items: center;
+  border: none;
+  background: #E1E1E4;
+  padding: 10px;
+  padding-right: 80px;
+  border-radius: 7px;
+}
+
+.sidebar-button-left{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  align-items: center;
+  left: 0;
+  border: none;
+  background: #E1E1E4;
+  padding: 10px;
+  border-radius: 7px;
+  max-width: 200px;
+}
+
+.Name-icon{
+  white-space: nowrap;
+}
+
+.sidebar-button-left:hover{
+  opacity: 0.7;
+  background: #fcfcfc8f;
+}
+
+.sidebar-button-left:active{
+  opacity: 0.6;
+}
+
+.sidebar-icon{
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+}
+
+.sidebar-log-right{
+  position: fixed;
+  right: 0;
+  width: 250px;
+  height: 100vh;
+  border-left: 1px solid #c9bebe;
+}
+
+.sidebar-button-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0 0 20px;
+  align-items: center;
+  right: 0;
+  border: none;
+  background: #CBD7FD;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.sidebar-button-right:hover{
+  opacity: 0.7;
+  background: #fcfcfc8f;
+}
+
+.sidebar-button-right:active{
+  opacity: 0.6;
 }

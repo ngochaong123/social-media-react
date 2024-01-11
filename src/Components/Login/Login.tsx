@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import facebook from "../img/facebook.png";
-import Google from "../img/google.png";
-import Apple from "../img/apple-logo.png";
-import Twitter from "../img/twitter.png";
+import facebook from "../../img/sidebarMenu/facebook.png";
+import Google from "../../img/sidebarMenu/google.png";
+import Apple from "../../img/sidebarMenu/apple-logo.png";
+import Twitter from "../../img/sidebarMenu/twitter.png";
 import { Outlet, Link } from "react-router-dom";
 import "./Login.css"
 

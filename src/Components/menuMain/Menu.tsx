@@ -1,24 +1,25 @@
 import React from 'react';
-import Logo from "../img/Logo.png";
-import Magnifier from "../img/magnifier.png";
-import mes from "../img/messenger.png";
-import Bell from "../img/bell.png";
-import User from "../img/user1.png";
-import User1 from "../img/user.png";
-import Friend from "../img/friend.png";
-import Group from "../img/group.png";
-import Video from "../img/zoom.png";
-import Shorts from "../img/video.png"
+import Logo from "../../img/sidebarMenu/Logo.png";
+import Magnifier from "../../img/sidebarMenu/magnifier.png";
+import mes from "../../img/sidebarMenu/messenger.png";
+import Bell from "../../img/sidebarMenu/bell.png";
+import User from "../../img/sidebarMenu/user1.png";
+import User1 from "../../img/sidebarMenu/user.png";
+import Friend from "../../img/sidebarMenu/friend.png";
+import Group from "../../img/sidebarMenu/group.png";
+import Video from "../../img/sidebarMenu/zoom.png";
+import Shorts from "../../img/sidebarMenu/video.png"
 
-import u1 from "../img/person/u1.png";
-import u2 from "../img/person/u2.png";
-import u3 from "../img/person/u3.png";
-import u4 from "../img/person/u4.png";
-import u5 from "../img/person/u5.png";
-import u6 from "../img/person/u6.png";
-import u7 from "../img/person/u7.png";
-import u8 from "../img/person/u8.png";
+import u1 from "../../img/person/u1.png";
+import u2 from "../../img/person/u2.png";
+import u3 from "../../img/person/u3.png";
+import u4 from "../../img/person/u4.png";
+import u5 from "../../img/person/u5.png";
+import u6 from "../../img/person/u6.png";
+import u7 from "../../img/person/u7.png";
+import u8 from "../../img/person/u8.png";
 import "./Menu.css";
+import Post from "./Post";
 
 export default function Menu() {
   return (
@@ -64,6 +65,8 @@ export default function Menu() {
           <div style={{paddingRight:"44px",whiteSpace:"nowrap"}}>Phim ngắn</div>
         </button>
       </div>
+
+      <Post />
 
       <div className='sidebar-log-right'>
         <h1 className='nametab'>Người liên hệ</h1>

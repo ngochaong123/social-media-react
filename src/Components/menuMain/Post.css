@@ -2,8 +2,14 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    flex: 1;
 }
 
 .srories-post{
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+.video-stores-post{
     
 }

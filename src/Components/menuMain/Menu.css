@@ -127,6 +127,7 @@
   padding: 10px;
   border-radius: 7px;
   max-width: 200px;
+  cursor: pointer; 
 }
 
 .Name-icon{
@@ -170,6 +171,7 @@
   background: #CBD7FD;
   padding: 10px;
   border-radius: 7px;
+  cursor: pointer; 
 }
 
 .sidebar-button-right:hover{

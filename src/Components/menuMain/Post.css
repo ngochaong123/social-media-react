@@ -7,7 +7,10 @@
     margin-right: 380px;
 }
 
-.srories-post{
+/* strories-post */
+
+.strories-post,
+.create-post{
     margin-left: 300px;
     margin-top: 20px;
 }
@@ -106,4 +109,71 @@
 
 .rightarrow-post:active{
     opacity: 0.7;
+}
+
+/* create-post */
+
+.create-post {
+    display: flex;
+    justify-content: start;
+    height: 60px;
+    margin-top: 40px;
+    border: none;
+    padding: 10px;
+    box-shadow: 3px 3px 2px 0px #88888872;
+    border-bottom-right-radius: 10px;
+    width: max-content;
+}
+  
+
+.input-log-container-post {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.avatar-post{
+    margin-left: 10px; 
+    background-color: #8d90966f;
+    height:40px;
+    width: 40px;
+    margin-right: 20px;
+    border-radius: 90px;
+}
+
+.none-space{
+    padding: 4px 8px 1px 10px;
+}
+
+.input-log-post{
+    width: 400px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border: none;
+    border-radius: 20px;
+}
+
+.input-log-post::placeholder {
+    right: 10px;
+}
+
+.input-log-post:focus {
+    outline: none; 
+    border: none; 
+}
+
+.icon-log-post{
+    width: 25px; 
+    height: 25px;
+    margin: 6px 20px 10px 20px;
+    cursor: pointer; 
+}
+
+.icon-log-post:hover{
+    opacity: 0.8;
+}
+
+.icon-log-post:active{
+    opacity: 0.5;
 }

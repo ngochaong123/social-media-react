@@ -3,11 +3,14 @@ import "./Post.css";
 import AddPost from "../../img/sidebarMenu/post.png";
 import leftarrow from "../../img/sidebarMenu/Leftarrow.png";
 import rightarrow from "../../img/sidebarMenu/rightArrow.png";
+import User from "../../img/sidebarMenu/user1.png";
+import image from "../../img/sidebarMenu/image.png";
+import video1 from "../../img/sidebarMenu/video1.png";
 
 export default function mainContainer() {
   return (
     <main className='Post-container'>
-      <div className='srories-post'>
+      <div className='strories-post'>
 
         <h3 className='name-port'>Stories</h3>
 
@@ -55,7 +58,19 @@ export default function mainContainer() {
           </button>
           
         </div>
-        
+      </div>
+
+      <div className='create-post'>
+        <div className='avatar-post'><img className='icon-log' src={User} alt="User Icon" /></div>
+
+        <div className="input-log-container-post">
+          <div className="none-space">
+          </div>
+          <input className="input-log-post" type="text" placeholder="Đăng bài suy nghĩ về bạn" />
+        </div>
+
+        <img src={image} style={{marginLeft:"100px",width:"32px",height:"32px"}} className='icon-log-post' />
+        <img src={video1} style={{width:"30px",height:"30px"}} className='icon-log-post' />
       </div>
 
     </main>

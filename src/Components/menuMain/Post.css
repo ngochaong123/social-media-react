@@ -3,7 +3,7 @@
     justify-content: center;
     flex-direction: column;
     flex: 1;
-    margin-left: 40px;
+    margin-left: 75px;
     margin-right: 380px;
 }
 
@@ -14,17 +14,17 @@
 
 .video-stores-container {
     display: flex;
-    flex-wrap: wrap;
     align-items: stretch;
     justify-content: start;
     border: none;
     padding: 10px;
+    width: 730px;
     box-shadow: 3px 3px 2px 0px #888888;
     border-bottom-right-radius: 10px;
 }
   
-/* .video-stores-post {
-    width: calc(20% - 20px);
+.video-stores-post {
+    width: 122px;
     height: 200px;
     border: none;
     border-radius: 10px;
@@ -32,15 +32,8 @@
     background: #888888;
     padding-top: 10px;
     flex-grow: 1;
-} */
-
-.video-stores-post {
-    height: 200px;
-    border: none;
-    border-radius: 10px;
-    margin: 10px;
-    flex-grow: 1;
-}
+    object-fit: fill;
+} 
 
 .video-stores-post:hover{
     opacity: 0.8;
@@ -55,7 +48,7 @@
 }
 
 .video-stores-postf{
-    width: 100px;
+    width: 120px;
     height: 200px;
     border: none;
     border-radius: 10px;
@@ -81,7 +74,7 @@
     position: absolute;
     justify-content: end;
     margin-top: 90px;
-    background: #88888857;
+    background: #3e404272;
     border: none;
     border-radius: 90px;
     margin-left: 10px;
@@ -89,7 +82,7 @@
 }
 
 .leftarrow-post:hover{
-    opacity: 0.9;
+    opacity: 0.3;
 }
 
 .leftarrow-post:active{
@@ -100,8 +93,8 @@
     display: flex;
     position: absolute;
     margin-top: 90px;
-    margin-left: 750px;
-    background: #88888857;
+    margin-left: 660px;
+    background: #3e404272;
     border: none;
     border-radius: 90px;
     padding: 5px;

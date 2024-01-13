@@ -76,6 +76,7 @@
 .sidebar-log-left{
   position: fixed;
   left: 0;
+  top: 80px;
   width: 200px;
   height: 100vh;
   border-right: 1px solid #c9bebe;
@@ -136,6 +137,7 @@
 .sidebar-log-right{
   position: fixed;
   right: 0;
+  top: 80px;
   width: 250px;
   height: 100vh;
   border-left: 1px solid #c9bebe;

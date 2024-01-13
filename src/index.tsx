@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Login from "./Components/Login";
-import Menu from "./Components/Menu";
+import Login from "./Components/Login/Login";
+import Menu from "./Components/menuMain/Menu";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

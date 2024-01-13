@@ -48,6 +48,28 @@
   flex-grow: 1; 
 }
 
+.input-log-container-friend{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  margin: 10px 15px 10px 10px;
+  height: 34px;
+}
+
+.input-log-friend{
+  width: 400px;
+  height: 34px;
+  border: 1px solid #ccc;
+  border: none;
+  border-radius: 20px;
+}
+
+.input-log-friend:focus {
+  outline: none; 
+  border: none; 
+}
+
 .enter-log {
   margin-left: 10px; 
   background-color: #E4E6EB;
@@ -73,6 +95,11 @@
   cursor: pointer; 
 }
 
+.container-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
 .sidebar-log-left{
   position: fixed;
   left: 0;
@@ -80,25 +107,13 @@
   width: 200px;
   height: 100vh;
   border-right: 1px solid #c9bebe;
+  flex: 1;
 }
 
 .nametab{
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   margin: 20px 0 0 10px; 
-}
-
-.sidebar-button-right{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px 0 0 20px;
-  align-items: center;
-  border: none;
-  background: #E1E1E4;
-  padding: 10px;
-  padding-right: 80px;
-  border-radius: 7px;
 }
 
 .sidebar-button-left{
@@ -141,6 +156,7 @@
   width: 250px;
   height: 100vh;
   border-left: 1px solid #c9bebe;
+  flex: 1;
 }
 
 .sidebar-button-right{

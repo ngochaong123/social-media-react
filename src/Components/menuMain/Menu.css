@@ -1,12 +1,16 @@
 .head-log {
   display: flex;
   position: fixed;
+  z-index: 2; 
+  top: 0;
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
   height: 80px;
   width: 100%;
   box-shadow: 10px 0px 4px #888888, -1em 0 .4em #888888;
+  background-color: #c9d6ff;
+  background: linear-gradient(to right, #e2e2e2, #c9d6ff);
 }
 
 .Logo-Log {
@@ -164,6 +168,8 @@
   height: 100vh;
   border-left: 1px solid #c9bebe;
   flex: 1;
+  background-color: #c9d6ff;
+  background: linear-gradient(to center, #e2e2e2, #c9d6ff);
 }
 
 .sidebar-button-right{

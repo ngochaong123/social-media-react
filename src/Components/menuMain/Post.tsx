@@ -36,10 +36,11 @@ export default function mainContainer() {
           </button>
 
           <video className='video-stores-post' controls
-              controlsList="nodownload noplaybackrate"
-              disablePictureInPicture >
+            controlsList="nodownload noplaybackrate"
+            disablePictureInPicture >
             <source src={require('../../Video/v1.mp4')} type="video/mp4" />
           </video>
+
 
           <video className='video-stores-post' controls
             controlsList="nodownload noplaybackrate"
@@ -89,16 +90,16 @@ export default function mainContainer() {
         <div className='user-info'>
           <img  src={u2} className='icon-log-person' /> 
           <div style={{marginLeft:"10px"}}>
-            <div> User 1 </div>
+            <div> Người dùng 1 </div>
             <div style={{
               fontFamily:"inherit",
               fontWeight:"300",
               fontSize:"11px",
               marginTop:"2px"
-            }}> 1 hours ago</div>
+            }}> 1 giờ trước</div>
           </div>
         </div>
-        <p className='p-post'>Eating Pizza! </p>
+        <p className='p-post'>Ăn bánh pizza! </p>
 
         <div className='container-img'>
           <img src={post1} className='img-post' />
@@ -107,15 +108,21 @@ export default function mainContainer() {
 
         <div>
             <div className='chose-post'>
-              <div> 300 Likes </div>
-              <div> 20 Comments </div>
-              <div> 150 Shares </div>
+              <div> 300 Thích </div>
+              <div> 20 Bình luận </div>
+              <div> 150 Chia sẽ </div>
             </div>
             <div className='border-post'></div>
             <div className='chose-post-space-img'>
-              <img src={Like} className='chose-post-img' />
-              <img src={Comments} className='chose-post-img' />
-              <img src={Share} className='chose-post-img' />
+              <button className='bnt-post-img'>
+                <img src={Like} className='chose-post-img' />
+              </button>
+              <button className='bnt-post-img'>
+                <img src={Comments} className='chose-post-img' />
+              </button>
+              <button className='bnt-post-img'>
+                <img src={Share} className='chose-post-img' />
+              </button>
             </div>
         </div>
       </section>
@@ -124,13 +131,13 @@ export default function mainContainer() {
         <div className='user-info'>
           <img  src={u1} className='icon-log-person' /> 
           <div style={{marginLeft:"10px"}}>
-            <div> User 2 </div>
+            <div> Người dùng 2 </div>
             <div style={{
               fontFamily:"inherit",
               fontWeight:"300",
               fontSize:"11px",
               marginTop:"2px"
-            }}> 2 hours ago</div>
+            }}> 2 giờ trước</div>
           </div>
         </div>
         <p className='p-post'>Puppy so cute! </p>
@@ -142,15 +149,21 @@ export default function mainContainer() {
 
         <div>
             <div className='chose-post'>
-              <div> 300 Likes </div>
-              <div> 20 Comments </div>
-              <div> 150 Shares </div>
+              <div> 500 Thích </div>
+              <div> 60 Bình luận </div>
+              <div> 200 Chia sẽ </div>
             </div>
             <div className='border-post'></div>
             <div className='chose-post-space-img'>
-              <img src={Like} className='chose-post-img' />
-              <img src={Comments} className='chose-post-img' />
-              <img src={Share} className='chose-post-img' />
+              <button className='bnt-post-img'>
+                <img src={Like} className='chose-post-img' />
+              </button>
+              <button className='bnt-post-img'>
+                <img src={Comments} className='chose-post-img' />
+              </button>
+              <button className='bnt-post-img'>
+                <img src={Share} className='chose-post-img' />
+              </button>
             </div>
         </div>
       </section>

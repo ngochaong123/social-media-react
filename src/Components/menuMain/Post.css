@@ -28,13 +28,23 @@
     box-shadow: 3px 3px 2px 0px #888888;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
+    position: relative;
 }
 
 .name-port{
     position: absolute;
 }
+
+.avatar-video{
+    position: absolute;
+    z-index: 2;
+    width: 32px;
+    height: 32px;
+    top:30px;
+}
   
 .video-stores-post {
+    position: relative;
     width: 90px;
     height: 200px;
     border: none;
@@ -60,7 +70,7 @@
 }
 
 .video-stores-postf{
-    width: 90px;
+    width: 87px;
     height: 200px;
     border: none;
     border-radius: 10px;
@@ -250,4 +260,17 @@
 .chose-post-img{
     width: 20px;
     height: 20px;
+}
+
+.bnt-post-img{
+    background: none;
+    border: none;
+}
+
+.bnt-post-img:hover{
+    opacity: 0.8;
+}
+
+.bnt-post-img:active{
+    opacity: 0.7;
 }

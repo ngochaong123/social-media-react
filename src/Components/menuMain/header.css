@@ -1,0 +1,49 @@
+.head-log {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+    box-shadow: 10px 0px 4px #888888, -1em 0 .4em #888888;
+}
+  
+.Logo-Log {
+    width: 150px;
+    height: 150px;
+}
+  
+.input-log-container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+}
+  
+.input-log {
+    width: 400px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border: none;
+    border-radius: 20px;
+}
+
+.input-log:focus {
+    outline: none; 
+    border: none; 
+}
+  
+.search-icon {
+    padding: 4px 8px 1px 10px;
+}
+  
+.search-icon img {
+    width: 17px; 
+    height: 17px; 
+}
+
+.enter-log-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1; 
+}

@@ -1,13 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,500&display=swap');
+
 .Post-container{
     display: flex;
     justify-content: center;
     flex-direction: column;
     flex: 1;
-    margin-left: 75px;
-    margin-right: 380px;
+    margin: 75px 380px 80px 70px;
 }
+ 
 
-.srories-post{
+/* strories-post */
+
+.strories-post,
+.create-post,
+.someone-post-container{
     margin-left: 300px;
     margin-top: 20px;
 }
@@ -21,10 +27,25 @@
     width: 730px;
     box-shadow: 3px 3px 2px 0px #888888;
     border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+}
+
+.name-port{
+    position: absolute;
+}
+
+.avatar-video{
+    position: absolute;
+    z-index: 2;
+    width: 32px;
+    height: 32px;
+    top:30px;
 }
   
 .video-stores-post {
-    width: 122px;
+    position: relative;
+    width: 90px;
     height: 200px;
     border: none;
     border-radius: 10px;
@@ -33,6 +54,7 @@
     padding-top: 10px;
     flex-grow: 1;
     object-fit: fill;
+    margin-top: 30px;
 } 
 
 .video-stores-post:hover{
@@ -43,17 +65,18 @@
     opacity: 0.6;
 }
   
-.video-stores-post:nth-child(n+7) {
+.video-stores-post:nth-child(n+8) {
     display: none;
 }
 
 .video-stores-postf{
-    width: 120px;
+    width: 87px;
     height: 200px;
     border: none;
     border-radius: 10px;
     margin: 10px 20px 10px 0;
-    flex-grow: 1
+    flex-grow: 1;
+    margin-top: 30px;
 }
 
 .video-stores-postf:hover{
@@ -73,11 +96,11 @@
     display: flex;
     position: absolute;
     justify-content: end;
-    margin-top: 90px;
+    margin-top: 110px;
     background: #3e404272;
     border: none;
     border-radius: 90px;
-    margin-left: 10px;
+    margin-left: 5px;
     padding: 5px;
 }
 
@@ -92,8 +115,8 @@
 .rightarrow-post{
     display: flex;
     position: absolute;
-    margin-top: 90px;
-    margin-left: 660px;
+    margin-top: 110px;
+    margin-left: 670px;
     background: #3e404272;
     border: none;
     border-radius: 90px;
@@ -105,5 +128,149 @@
 }
 
 .rightarrow-post:active{
+    opacity: 0.7;
+}
+
+/* create-post */
+
+.create-post {
+    display: flex;
+    justify-content: start;
+    height: 60px;
+    margin-top: 40px;
+    border: none;
+    padding: 10px;
+    box-shadow: 3px 3px 2px 0px #88888872;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    width: max-content;
+}
+  
+
+.input-log-container-post {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.avatar-post{
+    margin-left: 10px; 
+    background-color: #8d90966f;
+    height:40px;
+    width: 40px;
+    margin-right: 20px;
+    border-radius: 90px;
+}
+
+.none-space{
+    padding: 4px 8px 1px 10px;
+}
+
+.input-log-post{
+    width: 400px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border: none;
+    border-radius: 20px;
+}
+
+.input-log-post::placeholder {
+    right: 10px;
+}
+
+.input-log-post:focus {
+    outline: none; 
+    border: none; 
+}
+
+.icon-log-post{
+    width: 25px; 
+    height: 25px;
+    margin: 6px 20px 10px 20px;
+    cursor: pointer; 
+}
+
+.icon-log-post:hover{
+    opacity: 0.8;
+}
+
+.icon-log-post:active{
+    opacity: 0.5;
+}
+
+/* some post something */
+
+.someone-post-container{
+    justify-content: start;
+    border: none;
+    padding: 10px;
+    width: 730px;
+    box-shadow: 3px 3px 2px 0px #888888;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.icon-log-person{
+    width: 35px; 
+    height: 35px;
+    margin-left: 8px;
+}
+
+.user-info{
+    display: flex;
+    font-weight: 600;
+}
+
+.p-post {
+    font-family: inherit;
+    margin: 10px;
+    font-weight: 600;
+
+}
+
+.container-img{
+    display: flex;
+}
+
+.img-post{
+    width: 350px;
+    height: 250px;
+    margin: 2px;
+    object-fit: fill;
+}
+
+.chose-post{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px 0 20px;
+}
+
+.chose-post-space-img{
+    display: flex;
+    justify-content: space-between;
+    margin: 7px 50px 0 40px;
+}
+
+.border-post{
+    border-Bottom:2px solid #88888848;
+    padding: 3px;
+}
+
+.chose-post-img{
+    width: 20px;
+    height: 20px;
+}
+
+.bnt-post-img{
+    background: none;
+    border: none;
+}
+
+.bnt-post-img:hover{
+    opacity: 0.8;
+}
+
+.bnt-post-img:active{
     opacity: 0.7;
 }

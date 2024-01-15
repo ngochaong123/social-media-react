@@ -1,10 +1,16 @@
 .head-log {
   display: flex;
+  position: fixed;
+  z-index: 2; 
+  top: 0;
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
   height: 80px;
+  width: 100%;
   box-shadow: 10px 0px 4px #888888, -1em 0 .4em #888888;
+  background-color: #c9d6ff;
+  background: linear-gradient(to right, #e2e2e2, #c9d6ff);
 }
 
 .Logo-Log {
@@ -100,6 +106,8 @@
   justify-content: space-between;
 }
 
+/* sidebar-button-left */
+
 .sidebar-log-left{
   position: fixed;
   left: 0;
@@ -127,6 +135,7 @@
   padding: 10px;
   border-radius: 7px;
   max-width: 200px;
+  cursor: pointer; 
 }
 
 .Name-icon{
@@ -149,14 +158,18 @@
   margin-right: 20px;
 }
 
+/* sidebar-button-right */
+
 .sidebar-log-right{
   position: fixed;
-  right: 0;
   top: 80px;
+  right: 0;
   width: 250px;
   height: 100vh;
   border-left: 1px solid #c9bebe;
   flex: 1;
+  background-color: #c9d6ff;
+  background: linear-gradient(to center, #e2e2e2, #c9d6ff);
 }
 
 .sidebar-button-right{
@@ -170,6 +183,7 @@
   background: #CBD7FD;
   padding: 10px;
   border-radius: 7px;
+  cursor: pointer; 
 }
 
 .sidebar-button-right:hover{

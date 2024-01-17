@@ -20,6 +20,12 @@
   border: none; 
 }
 
+.sidebar-icon-post-left{
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+
 .enter-log {
   background-color: #E4E6EB;
   height: 40px;
@@ -44,6 +50,12 @@
   margin-top: 7px;
   margin-left: 8px;
   cursor: pointer; 
+}
+
+.sidebar-icon-chat-left{
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
 }
 
 .sidebar-log-left{
@@ -118,6 +130,7 @@
 .Name-icon-post-right{
   white-space: nowrap;
   padding-right: 70px;
+  padding-top: 3px;
 }
 
 .sidebar-button-right:hover{

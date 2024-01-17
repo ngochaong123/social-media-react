@@ -29,23 +29,23 @@ export default function Menu() {
           <h1 className='nametab'> Menu</h1>
 
           <button className='sidebar-button-left'>
-            <img src={User1} className='sidebar-icon-chat'/>
+            <img src={User1} className='sidebar-icon-chat-left'/>
             <div className='Name-icon-chat'>Người dùng</div>
           </button>
           <button className='sidebar-button-left'>
-            <img src={Friend} className='sidebar-icon-chat'/>
+            <img src={Friend} className='sidebar-icon-chat-left'/>
             <div className='Name-icon-chat'>Bạn bè </div>
           </button>
           <button className='sidebar-button-left'>
-            <img src={Group} className='sidebar-icon-chat'/>
+            <img src={Group} className='sidebar-icon-chat-left'/>
             <div className='Name-icon-chat'>Nhóm của bạn</div>
           </button>
           <button className='sidebar-button-left'>
-            <img src={Video} className='sidebar-icon-chat'/>
+            <img src={Video} className='sidebar-icon-chat-left'/>
             <div className='Name-icon-chat'>Phim</div>
           </button>
           <button className='sidebar-button-left'>
-            <img src={Shorts} className='sidebar-icon-chat'/>
+            <img src={Shorts} className='sidebar-icon-chat-left'/>
             <div className='Name-icon-chat'>Phim ngắn</div>
           </button>
         </div>
@@ -88,11 +88,11 @@ export default function Menu() {
           </button>
           <button className='sidebar-button-right'>
             <img src={u7} className='sidebar-icon'/>
-            <div className='Name-icon'>Người bạn 7</div>
+            <div className='Name-icon-post-right'>Người bạn 7</div>
           </button>
           <button className='sidebar-button-right'>
             <img src={u8} className='sidebar-icon'/>
-            <div className='Name-icon'>Người bạn 8</div>
+            <div className='Name-icon-post-right'>Người bạn 8</div>
           </button>
         </div>
       <Outlet />

@@ -1,3 +1,8 @@
+:root{
+    --width-sidebar-right: 400px;
+    --height-sidebar-right: 200px;
+}
+
 /* sidebar-button-left-chat */
 .sidebar-left-chat{
     position: fixed;
@@ -80,27 +85,29 @@
 /* sidebar-button-right */
 
 .sidebar-right-chat{
-    position: fixed;
     right: 0;
     top: 80px;
-    width: 400px;
     height: 100vh;
+    width: var(--width-sidebar-right);
     border-left: 1px solid #c9bebe;
+    overflow-x: scroll;
+    padding-bottom: 80px;
 }
 
 .Bg-right-chat{
-    width: 400px;
+    width: var(--width-sidebar-right);
+    height: var(--height-sidebar-right);
     object-fit: fill;
 }
 
 .avatar-chat-right{
     display: flex;
     justify-content: center;
-    width: 130px;
-    height: 130px;
+    width: 120px;
+    height: 120px;
     position: absolute;
-    margin-top: -80px;
-    margin-left: calc(400px / 2.7);
+    margin-top: -70px;
+    margin-left: calc(var(--width-sidebar-right) / 2.8);
 }
 
 .inforUser{
@@ -108,6 +115,20 @@
     justify-content: center;
     margin-top: 60px;
     margin-left: 25px;
+}
+
+.infor-user-chat h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.status-user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:"6px";
+    font-weight: lighter;
 }
 
 .infor-user-chat{
@@ -123,6 +144,9 @@
 }
 
 .icon-chose-chat-bell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 35px;
     height: 35px;
     margin: 0 5px 0 10px;
@@ -143,11 +167,44 @@
 }
 
 .icon-chose-chat-bell:hover,
-.icon-chose-chat-user:hover{
+.icon-chose-chat-user:hover,
+.btn-chose-sidebar-left button:hover{
     opacity: 0.8;
 }
 
 .icon-chose-chat-bell:active,
-.icon-chose-chat-user:active{
+.icon-chose-chat-user:active,
+.btn-chose-sidebar-left button:active{
     opacity: 0.7;
+}
+
+.btn-chose-sidebar-left{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.btn-chose-sidebar-left button{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border: none;
+}
+
+.btn-chose-sidebar-left div{
+    margin: 6px;
+    font-weight: bolder;
+}
+
+.media-img-sidebar{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    gap: 10px;
+}
+
+.media-img-sidebar img{
+    width: 117px;
+    height: 100px;
+    object-fit: fill;
 }

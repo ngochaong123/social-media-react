@@ -17,6 +17,17 @@ import Magnifier from "../../img/sidebarMenu/magnifier.png";
 import Bg from "../../img/Chat/background.jpg"; 
 import User from "../../img/Chat/user.png";
 import StopBell from "../../img/Chat/stop-bell.png";
+import DownArrow from "../../img/Chat/down.png";
+
+import img1 from "../../img/Chat/Media/fall-pictures-tree-64fb55446921f.jpg";
+import img2 from "../../img/Chat/Media/flowers-276014_640.jpg";
+import img3 from "../../img/Chat/Media/hd-aspect-1500566326-gettyimages-512366437-1.jpg";
+import img4 from "../../img/Chat/Media/imagesdddd.jpg";
+import img5 from "../../img/Chat/Media/images.jpg";
+import img6 from "../../img/Chat/Media/imagesdddd.jpg";
+import img7 from "../../img/Chat/Media/istockphoto-1317323736-612x612.jpg";
+import img8 from "../../img/Chat/Media/picture-a-captivating-scene-of-a-tranquil-lake-at-sunset-ai-generative-photo.jpg";
+import img9 from "../../img/Chat/Media/tron-le-eilpDNi_pV4-unsplash.jpg";
 
 export default function chat() {
   return (
@@ -113,15 +124,40 @@ export default function chat() {
 
         <div className='inforUser'>
           <div className='infor-user-chat'>
-            <h3> user 1 </h3>
-            <div style={{fontWeight:"100px",fontSize:"12px"}}> Online </div>
+            <h3 > user 1 </h3>
+            <div className='status-user'> Online </div>
              <div className='chose-inforUser-chat'>
               <img src={User} className='icon-chose-chat-user'/>
               <img src={StopBell} className='icon-chose-chat-bell'/>
             </div>
           </div>
         </div> 
-        
+
+        <div className='btn-chose-sidebar-left'>
+          <button >
+            <div> Chat Infor </div>
+            <img src={DownArrow} ></img>
+          </button>
+          <button>
+            <div> Chat Setting </div>
+            <img src={DownArrow} ></img>
+          </button>
+        </div>
+
+        <h4 style={{marginTop:"20px",marginLeft:"15px"}}> Media </h4>
+
+        <div className='media-img-sidebar'>
+          <img src={img1} /> 
+          <img src={img2} /> 
+          <img src={img3} /> 
+          <img src={img4} /> 
+          <img src={img5} /> 
+          <img src={img6} /> 
+          <img src={img7} /> 
+          <img src={img8} /> 
+          <img src={img9} /> 
+        </div>
+
       </div>
     </main>
   )

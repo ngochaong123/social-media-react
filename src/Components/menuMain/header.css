@@ -1,49 +1,56 @@
 .head-log {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    height: 80px;
-    box-shadow: 10px 0px 4px #888888, -1em 0 .4em #888888;
+  display: flex;
+  position: fixed;
+  z-index: 2; 
+  top: 0;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  box-shadow: 10px 0px 4px #888888, -1em 0 .4em #888888;
+  background-color: #c9d6ff;
+  background: linear-gradient(to right, #e2e2e2, #c9d6ff);
 }
   
 .Logo-Log {
-    width: 150px;
-    height: 150px;
+  width: 150px;
+  height: 150px;
 }
   
 .input-log-container {
-    display: flex;
-    align-items: center;
-    background-color: white;
-    border-radius: 20px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
 }
   
 .input-log {
-    width: 400px;
-    height: 40px;
-    border: 1px solid #ccc;
-    border: none;
-    border-radius: 20px;
+  width: 400px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border: none;
+  border-radius: 20px;
 }
-
+  
 .input-log:focus {
-    outline: none; 
-    border: none; 
+  outline: none; 
+  border: none; 
 }
   
 .search-icon {
-    padding: 4px 8px 1px 10px;
+  padding: 4px 8px 1px 10px;
 }
   
 .search-icon img {
-    width: 17px; 
-    height: 17px; 
+  width: 17px; 
+  height: 17px; 
 }
-
+  
 .enter-log-container {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-grow: 1; 
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-grow: 1; 
 }
+  

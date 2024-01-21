@@ -18,13 +18,18 @@ import Bg from "../../img/Chat/background.jpg";
 import User from "../../img/Chat/user.png";
 import StopBell from "../../img/Chat/stop-bell.png";
 import DownArrow from "../../img/Chat/down.png";
+import Phone from "../../img/Chat/phone-call.png";
+import Webcam from "../../img/sidebarMenu/zoom.png";
+import Img from "../../img/sidebarMenu/image.png"
+import Video from "../../img/sidebarMenu/video1.png"; 
+import Send from "../../img/Chat/send.png";
 
 import img1 from "../../img/Chat/Media/fall-pictures-tree-64fb55446921f.jpg";
 import img2 from "../../img/Chat/Media/flowers-276014_640.jpg";
 import img3 from "../../img/Chat/Media/hd-aspect-1500566326-gettyimages-512366437-1.jpg";
 import img4 from "../../img/Chat/Media/imagesdddd.jpg";
 import img5 from "../../img/Chat/Media/images.jpg";
-import img6 from "../../img/Chat/Media/imagesdddd.jpg";
+import img6 from "../../img/Chat/Media/istockphoto-825383494-612x612.jpg";
 import img7 from "../../img/Chat/Media/istockphoto-1317323736-612x612.jpg";
 import img8 from "../../img/Chat/Media/picture-a-captivating-scene-of-a-tranquil-lake-at-sunset-ai-generative-photo.jpg";
 import img9 from "../../img/Chat/Media/tron-le-eilpDNi_pV4-unsplash.jpg";
@@ -39,12 +44,11 @@ export default function chat() {
 
           <div className="input-log-container-friend">
             <div className="search-icon">
-              <img src={Magnifier}/>
+              <img src={Magnifier}  />
             </div>
             <input className="input-log-friend" type="text" placeholder="Tìm bạn bè" />
           </div>
         </div>
-
 
         <button className='sidebar-button-left-chat' style={{marginTop:"100px"}}>
           <img src={u10} className='sidebar-icon-chat'/>
@@ -118,13 +122,51 @@ export default function chat() {
         </button>
       </div>
 
+      <div className='contener-chat-friend'>
+        <div className='header-friend-chat'>
+          <div className='user-info'>
+            <img  src={u10} className='avatar-friend-chat' /> 
+            <div style={{marginLeft:"10px",marginTop:"6px"}}>
+              <div> Bạn bè 8 </div>
+              <div style={{
+                fontFamily:"inherit",
+                fontWeight:"300",
+                fontSize:"11px",
+                marginTop:"2px"
+              }}> Online </div>
+            </div>
+          </div>
+          <div className='call-chat'>
+            <img src={Phone} className='call-chat-icon' />
+            <img src={Webcam} className='call-chat-icon' />
+          </div>
+        </div>
+        
+        
+
+        <div className='contener-text-chat'>
+          <div className='img-chose-chat'>
+            <img src={Img} style={{width:"28px",height:"28px",marginTop:"8px"}} className='img-text-chat' />
+            <img src={Video} style={{width:"26px",height:"26px",marginBottom:"2px"}} className='img-text-chat' />
+          </div>
+          <div className="input-log-container-friend" style={{marginTop:"5px",marginLeft:"30px"}}>
+            <div className="search-icon"> </div>
+            <input className="input-log-friend" type="text" placeholder="Chat friend"/>
+          </div>
+
+          <div className='icon-send'>
+            <img src={Send} style={{width:"18px",height:"18px"}} />
+          </div>
+        </div>
+      </div>
+
       <div className='sidebar-right-chat'>
         <img src={Bg} className='Bg-right-chat'/>
         <img src={u10} className='avatar-chat-right'/>
 
         <div className='inforUser'>
           <div className='infor-user-chat'>
-            <h3 > user 1 </h3>
+            <h3 > Bạn bè 8 </h3>
             <div className='status-user'> Online </div>
              <div className='chose-inforUser-chat'>
               <img src={User} className='icon-chose-chat-user'/>

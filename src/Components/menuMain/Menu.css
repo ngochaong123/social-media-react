@@ -118,6 +118,8 @@
   height: 100vh;
   border-left: 1px solid #c9bebe;
   flex: 1;
+  background-color: #c9d6ff;
+  background: linear-gradient(to center, #e2e2e2, #c9d6ff);
 }
 
 .sidebar-button-right{

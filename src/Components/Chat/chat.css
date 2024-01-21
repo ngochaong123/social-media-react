@@ -154,6 +154,7 @@
     padding: 5px;
     border: none;
     border-radius: 50px;
+    cursor: pointer;
 }
 
 .icon-chose-chat-user{
@@ -164,6 +165,7 @@
     padding: 5px;
     border: none;
     border-radius: 50px;
+    cursor: pointer;
 }
 
 .icon-chose-chat-bell:hover,
@@ -207,4 +209,73 @@
     width: 117px;
     height: 100px;
     object-fit: fill;
+}
+
+/* contener-chat-friend */
+
+.contener-chat-friend{
+    max-width: none;
+    height: 100%;
+    margin: 100px 400px 0 300px;
+}
+
+.header-friend-chat{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 55px;
+    border-bottom: 1px solid #8888;
+    padding: 0 20px 0 20px;
+}
+
+.avatar-friend-chat{
+    width: 45px;
+    height: 45px;
+}
+.call-chat-icon{
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.contener-text-chat{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - 700px);
+    height: 65px;
+    border-top: 1px solid #8888;
+    padding-top: 7px;
+}
+
+.img-chose-chat{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+}
+
+.img-text-chat{
+    margin: 6px 5px 0px 20px;
+    cursor: pointer; 
+}
+
+.img-text-chat:hover{
+    opacity: 0.8;
+}
+
+.img-text-chat:active{
+    opacity: 0.5;
+}
+
+.icon-send{
+    background-color: purple;
+    border-radius: 90px;
+    width: 32px;
+    height: 32px;
+    padding: 6px;
+    cursor: pointer;
+    margin: 6px 20px 0 10px;
 }

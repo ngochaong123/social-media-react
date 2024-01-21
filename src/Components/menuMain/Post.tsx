@@ -81,7 +81,6 @@ export default function mainContainer() {
           </div>
           <input className="input-log-post" type="text" placeholder="Đăng bài suy nghĩ về bạn" />
         </div>
-
         <img src={image} style={{marginLeft:"101px",width:"32px",height:"32px"}} className='icon-log-post' />
         <img src={video1} style={{width:"30px",height:"30px"}} className='icon-log-post' />
       </section>

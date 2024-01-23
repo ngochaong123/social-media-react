@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Login from "./Components/Login/Login";
 import Menu from "./Components/menuMain/Menu";
 import Chat from "./Components/Chat/chat";
-import Infor from "./Components/InfoUser/user";
+import Infor from "./Components/InfoUser/User";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

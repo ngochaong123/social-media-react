@@ -1,5 +1,6 @@
 .header-user,
-.contener-name-user{
+.contener-name-user,
+.info-user{
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -38,27 +39,37 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-    top: -50px;
+    top: -40px;
+    border-bottom: 1px solid #8888;
+    padding-bottom: 50px;
 }
+
+/* contener avatar  */
 .avatar{
     margin-left: 100px;
     position: relative;
 }
 
+.avatar img {
+    width: 180px;
+    height: 180px;
+}
+
 .camera-chose-img{
     position: absolute;
-    width: 30px;
-    height: 30px;
+    width: 32px;
+    height: 32px;
     border-radius: 50px;
     background-color: rgb(255, 255, 255);
-    top: 90px;
-    left: 100px;
+    top: 135px;
+    left: 137px;
     padding: 4px 0 0 4px;
+    cursor: pointer;
 }
 
 .camera-chose-img img{
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
     padding-left: 1px;
 }
 
@@ -89,4 +100,51 @@
     height: 10px;
     margin-right: 10px;
     margin-top: 4px;
+}
+
+.local-name{
+    margin-left: 200px;
+    margin-top: -100px;
+}
+
+.local-name div{
+    font-size: 13px;
+
+}
+
+/* info-user */
+
+.info-user{
+    width: 300px;
+    height: auto;
+}
+
+.introdution-user{
+    line-height: 2;
+    padding: 0 10px 30px 10px;
+    box-shadow: 3px 3px 2px 0px #888888;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* add images user */
+
+.img-user{
+    margin-top: 20px;
+    margin-bottom: 80px;
+    padding: 20px 10px 30px 10px;
+    box-shadow: 3px 3px 2px 0px #888888;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.user-add-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.user-add-img img{
+    width: 60px;
+    height: 50px;
 }

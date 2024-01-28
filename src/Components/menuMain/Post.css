@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,500&display=swap');
 
+:root{
+    --margin-left: 300px;
+    --margin-top: 20px;
+}
+
 .Post-container{
     display: flex;
     justify-content: center;
@@ -10,7 +15,6 @@
  
 
 /* strories-post */
-
 .strories-post,
 .create-post,
 .someone-post-container{
@@ -211,6 +215,14 @@
     border-top-right-radius: 10px;
 }
 
+.icon-log {
+    width: 25px; 
+    height: 25px;
+    margin-top: 7px;
+    margin-left: 8px;
+    cursor: pointer; 
+}
+
 .icon-log-person{
     width: 35px; 
     height: 35px;
@@ -226,7 +238,6 @@
     font-family: inherit;
     margin: 10px;
     font-weight: 600;
-
 }
 
 .container-img{

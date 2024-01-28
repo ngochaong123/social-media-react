@@ -1,25 +1,24 @@
-.header-user,
-.contener-name-user,
-.info-user{
-    margin-left: 10%;
-    margin-right: 10%;
+/* Create the frame */
+:root{
+    --margin-left:10%;
+    --margin-right:10%;
 }
 
 /* header-user */
 
 .header-user{
-    width: 80%;
+    width: 90%;
     height: 300px;
-    overflow: hidden;
     position: relative;
 }
 
 .BG-user{
-    width: 100%;
+    width: 98%;
     height: 100%;
     object-fit: cover;
     object-position: center ;
     position: relative;
+    margin-left: calc(var(--margin-left) - 3%);
 }
 
 .Camara-user{
@@ -27,7 +26,7 @@
     height: 36px;
     position: absolute;
     top: 80%;
-    left: 95%; 
+    left: 100%; 
     background-color: white;
     padding: 5px;
     border-radius: 50px;
@@ -39,9 +38,11 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-    top: -40px;
+    top: -70px;
     border-bottom: 1px solid #8888;
     padding-bottom: 50px;
+    margin-left: calc(var(--margin-left) - 3%);
+    margin-right: calc(var(--margin-right) - 3%);
 }
 
 /* contener avatar  */
@@ -77,7 +78,7 @@
     display: flex;
     width: auto;
     height: 30px;
-    margin-top: 70px;
+    margin-top: 98px;
     padding: 6px 10px 5px 10px;
     background-color: blueviolet;
     border: none;
@@ -104,7 +105,7 @@
 
 .local-name{
     margin-left: 200px;
-    margin-top: -100px;
+    margin-top: -90px;
 }
 
 .local-name div{
@@ -117,6 +118,11 @@
 .info-user{
     width: 300px;
     height: auto;
+    margin-left: var(--margin-left);
+
+    /* manke it stay here */
+    /* position: fixed;
+    bottom: 5px; */
 }
 
 .introdution-user{
@@ -147,4 +153,59 @@
 .user-add-img img{
     width: 60px;
     height: 50px;
+}
+
+/* user post */
+.contener-user-post{
+    margin-left: 500px; 
+    margin-top: -550px;
+}
+
+/* contener post news */
+.create-post-user{
+    display: flex;
+    justify-content: start;
+    height: 60px;
+    border: none;
+    padding: 10px;
+    box-shadow: 3px 3px 2px 0px #88888872;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-right: calc(25% - var(--margin-right));
+}
+  
+.icon-log-user {
+    width: 32px; 
+    height: 32px;
+    margin: 4px 20px 0px 8px;
+    cursor: pointer; 
+}
+
+
+/* post news */
+
+.new-post-container{
+    justify-content: start;
+    border: none;
+    padding: 18px;
+    box-shadow: 3px 3px 2px 0px #888888;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 25px;
+    margin-right: calc(25% - var(--margin-right));
+}
+
+.new-post-container p{
+    padding-bottom: 5px;
+}
+
+.container-img{
+    display: flex;
+}
+
+.img-post-user{
+    width: auto;
+    height: 15rem;
+    margin: 2px;
+    object-fit: fill;
 }

@@ -45,7 +45,7 @@ export default function user() {
       {/* background in header */}
       <div className='header-user'>
         <img src={BG} className='BG-user' />
-        <div className='Camara-user' >
+        <div className='Camara-user'>
           <img src={Camera} style={{width:"25px",height:"25px",paddingLeft:"1px"}} />
         </div>
       </div>

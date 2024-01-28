@@ -204,8 +204,8 @@
 }
 
 .img-post-user{
-    width: auto;
-    height: 15rem;
+    width: 49%;
+    height: auto;
     margin: 2px;
     object-fit: fill;
 }

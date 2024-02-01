@@ -1,0 +1,12 @@
+
+/* notification-container for bell */
+.notification-container{
+    position: absolute;
+    background-color: #c9d6ff;
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    width: 350px;
+    height: 500px;
+    right: 0;
+    margin-top: 1px;
+    z-index: 3;
+}

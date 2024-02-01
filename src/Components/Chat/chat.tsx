@@ -1,6 +1,6 @@
 import React from 'react'
 import "./chat.css";
-import Header from "../menuMain/header";
+import Header from "../header/header";
 
 import u1 from "../../img/person/u1.png";
 import u2 from "../../img/person/u2.png";

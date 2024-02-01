@@ -16,7 +16,7 @@ import u7 from "../../img/person/u7.png";
 import u8 from "../../img/person/u8.png";
 import "./Menu.css";
 import Post from "./Post";
-import Header from "./header";
+import Header from "../header/header";
 import { Outlet, Link} from "react-router-dom";
 
 

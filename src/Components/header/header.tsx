@@ -17,25 +17,6 @@ const Header = () => {
         setShowNotification(!showNotification);
     };
 
-    // Use useEffect to listen for click events outside the Notification component
-    useEffect(() => {
-        const handleOutsideClick = (event) => {
-            // Check if the click event occurred outside the Notification element
-            if (notificationRef.current && !notificationRef.current.contains(event.target)) {
-                // Hide the Notification when clicking outside
-                setShowNotification(false);
-            }
-        };
-
-        // Register the click event for the entire page
-        document.addEventListener('mousedown', handleOutsideClick);
-
-        // Unregister the event when the component is unmounted
-        return () => {
-            document.removeEventListener('mousedown', handleOutsideClick);
-        };
-    }, []);
-
   return (
     <div>
         <div className='head-log'>

@@ -1,5 +1,5 @@
 import React from 'react'
-import "./User.css";
+import "./user.css";
 
 // import icon
 import BG from "../../img/Chat/backgroundUser.jpg";
@@ -34,9 +34,8 @@ import Like from "../../img/sidebarMenu/like.png";
 import Comments from "../../img/sidebarMenu/chat.png";
 import Share from "../../img/sidebarMenu/share.png";
 
-
 //  import header
-import Header from '../menuMain/header';
+import Header from '../header/header';
 
 export default function user() {
   return (

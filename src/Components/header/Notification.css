@@ -1,0 +1,93 @@
+/* notification-container for bell */
+.notification-container {
+    position: absolute;
+    background-color: #c9d6ff;
+    background: linear-gradient(to right, #e5e4e4, #b9c7f3);
+    width: 350px;
+    height: 600px;
+    margin-top: 1px;
+    left: 76%;
+    border-radius: 8px;
+    z-index: 10;
+    overflow: hidden; 
+}
+
+/* Kiểu thanh cuộn cho trình duyệt Chrome và Safari */
+.notification-container::-webkit-scrollbar {
+    width: 8px; /* Độ rộng của thanh cuộn */
+    border-radius: 6px; /* Bo tròn thanh cuộn */
+}
+
+.notification-container::-webkit-scrollbar-thumb {
+    background-color: #555555; /* Màu của phần nút cuộn */
+    border-radius: 6px; /* Bo tròn phần nút cuộn */
+}
+
+.notification-container::-webkit-scrollbar-track {
+    background-color: #b2bfea; /* Màu của phần nền thanh cuộn */
+    border-radius: 6px; /* Bo tròn phần nền thanh cuộn */
+}
+
+/* Hiển thị thanh cuộn khi hover vào phần tử */
+.notification-container:hover {
+    overflow: auto; /* Hiển thị thanh cuộn khi hover vào */
+}
+
+/* Đổi màu của phần nút cuộn khi hover */
+.notification-container:hover::-webkit-scrollbar-thumb {
+    background-color: #5c6fa1;
+}
+
+.title-Notifca{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: default;
+}
+
+/* notification frames  */
+
+.group-notification{
+    margin-left: 10px;
+}
+
+.notifica{
+    display: flex;
+    width: auto;
+    height: 60px;
+    margin: 10px 5px 0px 10px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.group-notification:hover{
+    opacity: 0.8;
+    background-color: #8888;
+    border-radius: 7px;
+}
+
+.group-notification:active{
+    opacity: 0.9;
+}
+
+.avatar-notifica{
+    width: 56px;
+    height: 56px;
+    border-radius: 50px;
+}
+
+.notifica p{
+    margin: 5px 0 0 10px;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* group time notification */
+.group-time-notification{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-left: 76px;
+    margin-top: 3px;
+}

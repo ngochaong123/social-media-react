@@ -1,4 +1,4 @@
-import React ,{useState} from 'react'
+import React, { useState, useEffect, useRef } from 'react';
 import { Outlet, Link} from "react-router-dom";
 import Logo from "../../img/sidebarMenu/Logo.png";
 import Magnifier from "../../img/sidebarMenu/magnifier.png";
@@ -10,10 +10,31 @@ import "./header.css";
 
 const Header = () => {
     const [showNotification, setShowNotification] = useState(false);
+    const notificationRef = useRef(null);
 
     const handleNotificationClick = () => {
-        setShowNotification((prevShowNotification) => !prevShowNotification);
+        // Toggle the showNotification state when clicking the bell button
+        setShowNotification(!showNotification);
     };
+
+    // Use useEffect to listen for click events outside the Notification component
+    useEffect(() => {
+        const handleOutsideClick = (event) => {
+            // Check if the click event occurred outside the Notification element
+            if (notificationRef.current && !notificationRef.current.contains(event.target)) {
+                // Hide the Notification when clicking outside
+                setShowNotification(false);
+            }
+        };
+
+        // Register the click event for the entire page
+        document.addEventListener('mousedown', handleOutsideClick);
+
+        // Unregister the event when the component is unmounted
+        return () => {
+            document.removeEventListener('mousedown', handleOutsideClick);
+        };
+    }, []);
 
   return (
     <div>
@@ -39,13 +60,17 @@ const Header = () => {
             
             {/* Notification code in header */}
             <div>
-                {/* Other content/components */}
+                {/* Nút Bell */}
                 <button onClick={handleNotificationClick} className='enter-log'>
                     <img className='icon-log' src={Bell} alt="Bell Icon" />
                 </button>
 
-                {/* Conditionally render the Notification component */}
-                {showNotification && <Notification />}
+                {/* Component Notification, được điều chỉnh bởi showNotification */}
+                {showNotification && (
+                    <div ref={notificationRef}>
+                        <Notification />
+                    </div>
+                )}
             </div>
 
             {/* user infomation */}

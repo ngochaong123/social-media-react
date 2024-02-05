@@ -14,9 +14,10 @@
 }
   
 .Logo-Log {
-  width: 150px;
-  height: 150px;
+  width: 85px;
+  height: 70px;
   cursor: pointer;
+  margin: 10px 30px 10px 30px;
 }
   
 .input-log-container {

@@ -1,25 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,500&display=swap');
 
-:root{
-    --margin-left: 300px;
-    --margin-top: 20px;
-}
-
 .Post-container{
+    margin: 100px 380px 80px 70px;
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    flex: 1;
-    margin: 75px 380px 80px 70px;
-}
- 
-
-/* strories-post */
-.strories-post,
-.create-post,
-.someone-post-container{
-    margin-left: 300px;
-    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
 }
 
 .video-stores-container {
@@ -147,6 +134,7 @@
     box-shadow: 3px 3px 2px 0px #88888872;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
+    margin-top: 30px;
     width: max-content;
 }
   
@@ -213,6 +201,7 @@
     box-shadow: 3px 3px 2px 0px #888888;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
+    margin-top: 30px;
 }
 
 .icon-log {
@@ -227,6 +216,7 @@
     width: 35px; 
     height: 35px;
     margin-left: 8px;
+    cursor: pointer;
 }
 
 .user-info{
@@ -249,12 +239,14 @@
     height: 250px;
     margin: 2px;
     object-fit: fill;
+    cursor: pointer;
 }
 
 .chose-post{
     display: flex;
     justify-content: space-between;
     margin: 10px 20px 0 20px;
+    cursor: default;
 }
 
 .chose-post-space-img{

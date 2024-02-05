@@ -45,19 +45,20 @@ export default function user() {
       <div className='header-user'>
         <img src={BG} className='BG-user' />
         <div className='Camara-user'>
-          <img src={Camera} style={{width:"25px",height:"25px",paddingLeft:"1px"}} />
+          {/* button camera change background */}
+          <img src={Camera} className='change-bg' />
         </div>
       </div>
 
       {/* create avatar for user */}
       <div className='contener-name-user'>
         <div className='avatar'>
-          <img src={Avatar} />
+          <img src={Avatar} style={{cursor:"pointer"}}/> {/* avatar user */}
           <div className='camera-chose-img'>
             <img src={Camera} />
           </div>
 
-          {/* local name user */}
+          {/* name user */}
           <div className='local-name'>
             <h1> Name </h1>
             <div> 350 friends </div>
@@ -75,7 +76,7 @@ export default function user() {
       <div className='info-user'>
         {/* introduction user */}
         <div className='introdution-user'>
-          <h4 style={{lineHeight:"2",marginBottom:"30px"}}> Introduction </h4>
+          <h4 style={{lineHeight:"2",marginBottom:"10px"}}> Introduction </h4>
           <div> Living in VietNam </div>
           <div> Teacher at ABC school </div>
           <div> Birthday: 05/06/1996 </div>
@@ -118,14 +119,16 @@ export default function user() {
         {/* post news  */}
         <section className='new-post-container'>
           <div className='user-info'>
+            {/* avatar user */}
             <img  src={Avatar} className='icon-log-person' /> 
             <div style={{marginLeft:"10px"}}>
-              <div> Name </div>
+              <div style={{cursor:"default"}}> Name </div>
               <div style={{
                 fontFamily:"inherit",
                 fontWeight:"300",
                 fontSize:"11px",
-                marginTop:"2px"
+                marginTop:"2px",
+                cursor:"default"
               }}> 2 giờ trước</div>
             </div>
           </div>
@@ -162,12 +165,13 @@ export default function user() {
           <div className='user-info'>
             <img  src={Avatar} className='icon-log-person' /> 
             <div style={{marginLeft:"10px"}}>
-              <div> Name </div>
+              <div style={{cursor:"default"}}> Name </div>
               <div style={{
                 fontFamily:"inherit",
                 fontWeight:"300",
                 fontSize:"11px",
-                marginTop:"2px"
+                marginTop:"2px",
+                cursor:"default"
               }}> 5 giờ trước</div>
             </div>
           </div>

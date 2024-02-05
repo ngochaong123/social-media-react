@@ -19,6 +19,14 @@
     object-position: center ;
     position: relative;
     margin-left: calc(var(--margin-left) - 3%);
+    cursor: pointer;
+}
+
+.change-bg {
+    width:25px;
+    height:25px;
+    padding-left:1px;
+    cursor: pointer;
 }
 
 .Camara-user{
@@ -106,11 +114,12 @@
 .local-name{
     margin-left: 200px;
     margin-top: -90px;
+    cursor: default;
 }
 
 .local-name div{
     font-size: 13px;
-
+    cursor: default;
 }
 
 /* info-user */
@@ -153,6 +162,7 @@
 .user-add-img img{
     width: 60px;
     height: 50px;
+    cursor: pointer;
 }
 
 /* user post */
@@ -208,4 +218,5 @@
     height: auto;
     margin: 2px;
     object-fit: fill;
+    cursor: pointer;
 }

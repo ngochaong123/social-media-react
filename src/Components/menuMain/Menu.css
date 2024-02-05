@@ -67,7 +67,8 @@
   width: 200px;
   height: 100vh;
   border-right: 1px solid #c9bebe;
-  flex: 1;
+  background: #E0E1E3;
+  z-index: 1;
 }
 
 .nametab{

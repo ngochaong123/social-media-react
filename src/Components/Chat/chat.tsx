@@ -38,6 +38,8 @@ export default function chat() {
   return (
     <main>
       <Header />
+
+      {/* sidebar left friend user */}
       <div className='sidebar-left-chat'>
         <div className='menu-chat-left'>
           <h1 className='nametab-left'> Đoạn chat</h1>
@@ -50,6 +52,7 @@ export default function chat() {
           </div>
         </div>
 
+        {/* list friend  */}
         <button className='sidebar-button-left-chat' style={{marginTop:"100px"}}>
           <img src={u10} className='sidebar-icon-chat'/>
           <div>
@@ -122,17 +125,19 @@ export default function chat() {
         </button>
       </div>
 
+      {/* chat friend header */}
       <div className='contener-chat-friend'>
         <div className='header-friend-chat'>
           <div className='user-info'>
             <img  src={u10} className='avatar-friend-chat' /> 
             <div style={{marginLeft:"10px",marginTop:"6px"}}>
-              <div> Bạn bè 8 </div>
+              <div style={{cursor:"default"}}> Bạn bè 8 </div>
               <div style={{
                 fontFamily:"inherit",
                 fontWeight:"300",
                 fontSize:"11px",
-                marginTop:"2px"
+                marginTop:"2px",
+                cursor:"default"
               }}> Online </div>
             </div>
           </div>
@@ -142,8 +147,7 @@ export default function chat() {
           </div>
         </div>
         
-        
-
+        {/* frames chose chat */}
         <div className='contener-text-chat'>
           <div className='img-chose-chat'>
             <img src={Img} style={{width:"28px",height:"28px",marginTop:"8px"}} className='img-text-chat' />
@@ -160,13 +164,14 @@ export default function chat() {
         </div>
       </div>
 
+      {/* sidebar information friend chat with user */}
       <div className='sidebar-right-chat'>
         <img src={Bg} className='Bg-right-chat'/>
         <img src={u10} className='avatar-chat-right'/>
-
+        
         <div className='inforUser'>
           <div className='infor-user-chat'>
-            <h3 > Bạn bè 8 </h3>
+            <h3 style={{cursor:"default"}}> Bạn bè 8 </h3>
             <div className='status-user'> Online </div>
              <div className='chose-inforUser-chat'>
               <img src={User} className='icon-chose-chat-user'/>
@@ -174,8 +179,9 @@ export default function chat() {
             </div>
           </div>
         </div> 
-
-        <div className='btn-chose-sidebar-left'>
+        
+        {/* chat infor friend user */}
+        <div className='btn-chose-sidebar-right'>
           <button >
             <div> Chat Infor </div>
             <img src={DownArrow} ></img>
@@ -185,8 +191,9 @@ export default function chat() {
             <img src={DownArrow} ></img>
           </button>
         </div>
-
-        <h4 style={{marginTop:"20px",marginLeft:"15px"}}> Media </h4>
+        
+        {/* imgae use post in chat */}
+        <h4 style={{marginTop:"20px",marginLeft:"15px",cursor:"default"}}> Media </h4>
 
         <div className='media-img-sidebar'>
           <img src={img1} /> 

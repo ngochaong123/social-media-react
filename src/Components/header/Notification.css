@@ -35,7 +35,7 @@
 
 /* Đổi màu của phần nút cuộn khi hover */
 .notification-container:hover::-webkit-scrollbar-thumb {
-    background-color: #5c6fa1;
+    background-color: #989eb2;
 }
 
 .title-Notifca{

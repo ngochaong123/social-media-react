@@ -64,7 +64,7 @@ export default function user() {
             <div> 350 friends </div>
           </div>
         </div>
-       
+        {/* edit profile user */}
         <button className='Edit-Profile-user'>
           <img src={Edit} />
           <div > Edit Profile </div>

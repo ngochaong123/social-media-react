@@ -284,5 +284,18 @@
     height: 32px;
     padding: 6px;
     cursor: pointer;
-    margin: 6px 20px 0 10px;
+    margin: 6px 30px 0 10px;
 }
+
+.input-chat-container-friend{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px 15px 10px 10px;
+    height: 34px;
+    margin-top:"5px";
+    margin-left:"30px";
+    width: 70%;
+}
+  

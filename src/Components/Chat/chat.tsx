@@ -2,6 +2,7 @@ import React from 'react'
 import "./chat.css";
 import Header from "../header/header";
 
+// avater friend user
 import u1 from "../../img/person/u1.png";
 import u2 from "../../img/person/u2.png";
 import u3 from "../../img/person/u3.png";
@@ -13,6 +14,7 @@ import u8 from "../../img/person/u8.png";
 import u9 from "../../img/person/u9.png";
 import u10 from "../../img/person/u10.png";
 
+// icon 
 import Magnifier from "../../img/sidebarMenu/magnifier.png";
 import Bg from "../../img/Chat/background.jpg"; 
 import User from "../../img/Chat/user.png";
@@ -24,6 +26,7 @@ import Img from "../../img/sidebarMenu/image.png"
 import Video from "../../img/sidebarMenu/video1.png"; 
 import Send from "../../img/Chat/send.png";
 
+// image post in chat
 import img1 from "../../img/Chat/Media/fall-pictures-tree-64fb55446921f.jpg";
 import img2 from "../../img/Chat/Media/flowers-276014_640.jpg";
 import img3 from "../../img/Chat/Media/hd-aspect-1500566326-gettyimages-512366437-1.jpg";
@@ -129,7 +132,9 @@ export default function chat() {
       <div className='contener-chat-friend'>
         <div className='header-friend-chat'>
           <div className='user-info'>
+            {/* avatar friend chat */}
             <img  src={u10} className='avatar-friend-chat' /> 
+            {/* name and stauts */}
             <div style={{marginLeft:"10px",marginTop:"6px"}}>
               <div style={{cursor:"default"}}> Bạn bè 8 </div>
               <div style={{
@@ -141,6 +146,7 @@ export default function chat() {
               }}> Online </div>
             </div>
           </div>
+          {/* icon call and open webcame */}
           <div className='call-chat'>
             <img src={Phone} className='call-chat-icon' />
             <img src={Webcam} className='call-chat-icon' />
@@ -149,15 +155,17 @@ export default function chat() {
         
         {/* frames chose chat */}
         <div className='contener-text-chat'>
+          {/* post image and video */}
           <div className='img-chose-chat'>
             <img src={Img} style={{width:"28px",height:"28px",marginTop:"8px"}} className='img-text-chat' />
             <img src={Video} style={{width:"26px",height:"26px",marginBottom:"2px"}} className='img-text-chat' />
           </div>
-          <div className="input-log-container-friend" style={{marginTop:"5px",marginLeft:"30px"}}>
+          {/* write chat to friend */}
+          <div className="input-chat-container-friend">
             <div className="search-icon"> </div>
             <input className="input-log-friend" type="text" placeholder="Chat friend"/>
           </div>
-
+          {/* sends chat or image or video */}
           <div className='icon-send'>
             <img src={Send} style={{width:"18px",height:"18px"}} />
           </div>
@@ -169,6 +177,7 @@ export default function chat() {
         <img src={Bg} className='Bg-right-chat'/>
         <img src={u10} className='avatar-chat-right'/>
         
+        {/* infor friend */}
         <div className='inforUser'>
           <div className='infor-user-chat'>
             <h3 style={{cursor:"default"}}> Bạn bè 8 </h3>
@@ -180,7 +189,7 @@ export default function chat() {
           </div>
         </div> 
         
-        {/* chat infor friend user */}
+        {/* list infor friend user */}
         <div className='btn-chose-sidebar-right'>
           <button >
             <div> Chat Infor </div>

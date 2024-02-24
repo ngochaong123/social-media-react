@@ -247,6 +247,18 @@
     cursor: pointer;
 }
 
+.call-chat-icon:hover{
+    background-color: #c9bebe;
+    border-radius: 50px;
+    opacity: 0.8;
+}
+
+.call-chat-icon:active{
+    background-color: #c9bebe;
+    border-radius: 50px;
+    opacity: 0.6;
+}
+
 .contener-text-chat{
     display: flex;
     justify-content: space-between;
@@ -256,6 +268,8 @@
     height: 65px;
     border-top: 1px solid #8888;
     padding-top: 7px;
+    background-color: #c9d6ff;
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
 }
 
 .img-chose-chat{

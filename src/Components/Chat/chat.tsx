@@ -1,6 +1,7 @@
 import React from 'react'
 import "./chat.css";
 import Header from "../header/header";
+import ChatToFriend from "./ChatToFriend";
 
 // avater friend user
 import u1 from "../../img/person/u1.png";
@@ -130,6 +131,7 @@ export default function chat() {
 
       {/* chat friend header */}
       <div className='contener-chat-friend'>
+        {/* header friend */}
         <div className='header-friend-chat'>
           <div className='user-info'>
             {/* avatar friend chat */}
@@ -152,6 +154,9 @@ export default function chat() {
             <img src={Webcam} className='call-chat-icon' />
           </div>
         </div>
+        
+        {/* frame chat to friend */}
+        <ChatToFriend />
         
         {/* frames chose chat */}
         <div className='contener-text-chat'>
@@ -203,7 +208,7 @@ export default function chat() {
         
         {/* imgae use post in chat */}
         <h4 style={{marginTop:"20px",marginLeft:"15px",cursor:"default"}}> Media </h4>
-
+        
         <div className='media-img-sidebar'>
           <img src={img1} /> 
           <img src={img2} /> 

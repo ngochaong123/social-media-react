@@ -1,0 +1,59 @@
+/* contener friend */
+.friend-frame-chat{
+    display: flex;
+    justify-content: flex-start;
+    margin: 12px 10px 10px 10px;
+    position: relative; /* Sử dụng vị trí tương đối cho frame-chat */
+}
+
+.friend-avatar-container {
+    position: absolute; /* Sử dụng vị trí tuyệt đối cho avatar */
+    bottom: 0; /* Đặt bottom: 0 để nằm ở dưới cùng của frame-chat */
+    left: 0; /* Đặt left: 0 để nằm ở góc trái của frame-chat */
+}
+
+.friend-chat {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.friend-paragraph-chat {
+    background-color: rgb(234, 228, 228);
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 40px; /* Đảm bảo khoảng cách giữa avatar và văn bản */
+    margin-right: 100px;
+    max-width: calc(100% - 40px); /* Sử dụng calc để tính chiều rộng tối đa của văn bản */
+}
+
+/* contener user */
+.user-frame-chat{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 10px 10px 10px;
+    position: relative; /* Sử dụng vị trí tương đối cho frame-chat */
+}
+
+.user-avatar-container {
+    position: absolute; /* Sử dụng vị trí tuyệt đối cho avatar */
+    bottom: 0; /* Đặt bottom: 0 để nằm ở dưới cùng của frame-chat */
+    right: 0; /* Đặt left: 0 để nằm ở góc trái của frame-chat */
+}
+
+.user-chat {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.user-paragraph-chat {
+    background-color: rgb(234, 228, 228);
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 40px; /* Đảm bảo khoảng cách giữa avatar và văn bản */
+    margin-left: 100px;
+    max-width: calc(100% - 40px); /* Sử dụng calc để tính chiều rộng tối đa của văn bản */
+}

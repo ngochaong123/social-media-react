@@ -43,19 +43,19 @@ export default function user() {
       <Header />
       {/* background in header */}
       <div className='header-user'>
-        <img src={BG} className='BG-user' />
+        <img loading="lazy" src={BG} className='BG-user' />
         <div className='Camara-user'>
           {/* button camera change background */}
-          <img src={Camera} className='change-bg' />
+          <img src={Camera} loading="lazy" className='change-bg' />
         </div>
       </div>
 
       {/* create avatar for user */}
       <div className='contener-name-user'>
         <div className='avatar'>
-          <img src={Avatar} style={{cursor:"pointer"}}/> {/* avatar user */}
+          <img src={Avatar} loading="lazy" style={{cursor:"pointer"}}/> {/* avatar user */}
           <div className='camera-chose-img'>
-            <img src={Camera} />
+            <img src={Camera}  loading="lazy"/>
           </div>
 
           {/* name user */}
@@ -66,7 +66,7 @@ export default function user() {
         </div>
         {/* edit profile user */}
         <button className='Edit-Profile-user'>
-          <img src={Edit} />
+          <img src={Edit} loading="lazy" />
           <div > Edit Profile </div>
         </button>
       </div>
@@ -86,18 +86,18 @@ export default function user() {
         <div className='img-user'>
           <h4 style={{lineHeight:"2",marginBottom:"10px"}}> Images </h4>
           <div className='user-add-img'>
-            <img src={img1} />
-            <img src={img2} />
-            <img src={img3} />
-            <img src={img4} />
-            <img src={img5} />
-            <img src={img6} />
-            <img src={img7} />
-            <img src={img8} />
-            <img src={img9} />
-            <img src={img10} />
-            <img src={img11} />
-            <img src={img12} />
+            <img src={img1} loading="lazy" />
+            <img src={img2} loading="lazy" />
+            <img src={img3} loading="lazy"/>
+            <img src={img4} loading="lazy"/>
+            <img src={img5} loading="lazy"/>
+            <img src={img6} loading="lazy"/>
+            <img src={img7} loading="lazy"/>
+            <img src={img8} loading="lazy"/>
+            <img src={img9} loading="lazy"/>
+            <img src={img10} loading="lazy"/>
+            <img src={img11} loading="lazy"/>
+            <img src={img12} loading="lazy"/>
           </div>
         </div>
       </div>
@@ -110,17 +110,17 @@ export default function user() {
 
           <div className="input-log-container-post">
             <div className="none-space"></div>
-            <input className="input-log-post" type="text" placeholder="Đăng bài suy nghĩ về bạn" style={{width:"40vw"}} />
+            <input className="post-infor-user" type="text" placeholder="Đăng bài suy nghĩ về bạn" autoFocus  />
           </div>
-          <img src={Image} style={{marginLeft:"30px",width:"27px",height:"27px"}} className='icon-log-post' />
-          <img src={Video} style={{width:"23px",height:"23px"}} className='icon-log-post' />
+          <img src={Image} loading="lazy" style={{marginLeft:"30px",width:"27px",height:"27px"}} className='icon-user-post' />
+          <img src={Video} loading="lazy" style={{width:"23px",height:"23px"}} className='icon-user-post' />
         </section>
 
         {/* post news  */}
         <section className='new-post-container'>
           <div className='user-info'>
             {/* avatar user */}
-            <img  src={Avatar} className='icon-log-person' /> 
+            <img  src={Avatar} loading="lazy" className='icon-log-person' /> 
             <div style={{marginLeft:"10px"}}>
               <div style={{cursor:"default"}}> Name </div>
               <div style={{
@@ -135,8 +135,8 @@ export default function user() {
           <p className='p-post'>Puppy so cute! </p>
 
           <div className='container-img'>
-            <img src={post3} className='img-post-user' />
-            <img src={post4} className='img-post-user' />
+            <img src={post3} loading="lazy" className='img-post-user' />
+            <img src={post4} loading="lazy" className='img-post-user' />
           </div>
 
           <div>
@@ -148,13 +148,13 @@ export default function user() {
             <div className='border-post'></div>
             <div className='chose-post-space-img'>
               <button className='bnt-post-img'>
-                <img src={Like} className='chose-post-img' />
+                <img src={Like} loading="lazy" className='chose-post-img' />
               </button>
               <button className='bnt-post-img'>
-                <img src={Comments} className='chose-post-img' />
+                <img src={Comments} loading="lazy" className='chose-post-img' />
               </button>
               <button className='bnt-post-img'>
-                <img src={Share} className='chose-post-img' />
+                <img src={Share} loading="lazy" className='chose-post-img' />
               </button>
             </div>
           </div>
@@ -163,7 +163,7 @@ export default function user() {
         {/* post new 2*/}
         <section className='new-post-container'>
           <div className='user-info'>
-            <img  src={Avatar} className='icon-log-person' /> 
+            <img  src={Avatar} loading="lazy" className='icon-log-person' /> 
             <div style={{marginLeft:"10px"}}>
               <div style={{cursor:"default"}}> Name </div>
               <div style={{
@@ -186,13 +186,13 @@ export default function user() {
             <div className='border-post'></div>
             <div className='chose-post-space-img'>
               <button className='bnt-post-img'>
-                <img src={Like} className='chose-post-img' />
+                <img src={Like} loading="lazy" className='chose-post-img' />
               </button>
               <button className='bnt-post-img'>
-                <img src={Comments} className='chose-post-img' />
+                <img src={Comments} loading="lazy" className='chose-post-img' />
               </button>
               <button className='bnt-post-img'>
-                <img src={Share} className='chose-post-img' />
+                <img src={Share} loading="lazy" className='chose-post-img' />
               </button>
             </div>
           </div>
@@ -201,7 +201,7 @@ export default function user() {
         {/* post new 3 */}
         <section className='new-post-container'>
           <div className='user-info'>
-            <img  src={Avatar} className='icon-log-person' /> 
+            <img  src={Avatar} loading="lazy" className='icon-log-person' /> 
             <div style={{marginLeft:"10px"}}>
               <div> Name </div>
               <div style={{
@@ -215,8 +215,8 @@ export default function user() {
           <p className='p-post'>Ăn bánh pizaa </p>
 
           <div className='container-img'>
-            <img src={post1} className='img-post-user' />
-            <img src={post2} className='img-post-user' />
+            <img src={post1} loading="lazy" className='img-post-user' />
+            <img src={post2} loading="lazy" className='img-post-user' />
           </div>
 
           <div>
@@ -228,13 +228,13 @@ export default function user() {
             <div className='border-post'></div>
             <div className='chose-post-space-img'>
               <button className='bnt-post-img'>
-                <img src={Like} className='chose-post-img' />
+                <img src={Like} loading="lazy" className='chose-post-img' />
               </button>
               <button className='bnt-post-img'>
-                <img src={Comments} className='chose-post-img' />
+                <img src={Comments} loading="lazy" className='chose-post-img' />
               </button>
               <button className='bnt-post-img'>
-                <img src={Share} className='chose-post-img' />
+                <img src={Share} loading="lazy" className='chose-post-img' />
               </button>
             </div>
           </div>
@@ -243,7 +243,7 @@ export default function user() {
         {/* post new 4 */}
         <section className='new-post-container' style={{marginBottom:"80px"}}>
           <div className='user-info'>
-            <img  src={Avatar} className='icon-log-person' /> 
+            <img  src={Avatar} loading="lazy" className='icon-log-person' /> 
             <div style={{marginLeft:"10px"}}>
               <div> Name </div>
               <div style={{
@@ -265,13 +265,13 @@ export default function user() {
             <div className='border-post'></div>
             <div className='chose-post-space-img'>
               <button className='bnt-post-img'>
-                <img src={Like} className='chose-post-img' />
+                <img src={Like} loading="lazy" className='chose-post-img' />
               </button>
               <button className='bnt-post-img'>
-                <img src={Comments} className='chose-post-img' />
+                <img src={Comments} loading="lazy" className='chose-post-img' />
               </button>
               <button className='bnt-post-img'>
-                <img src={Share} className='chose-post-img' />
+                <img src={Share} loading="lazy" className='chose-post-img' />
               </button>
             </div>
           </div>

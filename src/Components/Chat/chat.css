@@ -1,6 +1,9 @@
 :root{
     --width-sidebar-right: 400px;
     --height-sidebar-right: 200px;
+
+    --width-sidebar-left: 300px;
+    --height-sidebar-left: 100vh;
 }
 
 /* sidebar-button-left-chat */
@@ -8,8 +11,8 @@
     position: fixed;
     left: 0;
     top: 80px;
-    width: 300px;
-    height: 100vh;
+    width: var(--width-sidebar-left);
+    height: var(--height-sidebar-left);
     border-right: 1px solid #c9bebe;
     flex: 1;
     overflow-x: scroll;
@@ -74,26 +77,20 @@
     opacity: 0.6;
 }
 
-.sidebar-right-chat{
-    position: fixed;
-    right: 0;
-    top: 80px;
-    width: 400px;
-    height: 100vh;
-    border-left: 1px solid #c9bebe;
-    flex: 1;
-}
 
 /* sidebar-button-right */
 
 .sidebar-right-chat{
+    position: fixed;
     right: 0;
     top: 80px;
+    /* z-index: 1; */
+    width: 400px;
     height: 100vh;
-    width: var(--width-sidebar-right);
     border-left: 1px solid #c9bebe;
     overflow-x: scroll;
-    padding-bottom: 80px;
+    background-color: #c9d6ff;
+    background: linear-gradient(to center, #e2e2e2, #c9d6ff);
 }
 
 .Bg-right-chat{
@@ -225,13 +222,20 @@
     margin: 100px 400px 0 300px;
 }
 
-.header-friend-chat{
+.header-friend-chat {
+    position: fixed;
+    top: 80px;
+    left: var(--width-sidebar-left);
+    width: calc(100% - 700px);
+    height: 70px;
+    background-color: #c9d6ff;
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    z-index: 1;
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    height: 55px;
+    align-items: center;
+    padding: 0 20px;
     border-bottom: 1px solid #8888;
-    padding: 0 20px 0 20px;
 }
 
 .avatar-friend-chat{
@@ -301,15 +305,34 @@
     margin: 6px 30px 0 10px;
 }
 
-.input-chat-container-friend{
+.chat-container-friend{
     display: flex;
     align-items: center;
-    background-color: white;
-    border-radius: 20px;
     margin: 10px 15px 10px 10px;
     height: 34px;
     margin-top:"5px";
     margin-left:"30px";
     width: 70%;
 }
-  
+
+.emptyArea{
+    background-color: white;
+    width: 20px;
+    height: 34px;
+    border-top-left-radius: 20px; /* Border radius bên trái ở trên */
+    border-bottom-left-radius: 20px; /* Border radius bên trái ở dưới */
+}
+
+.chat-friend{
+  width: 400px;
+  height: 34px;
+  border: 1px solid #ccc;
+  border: none;
+  border-top-right-radius: 20px; /* Border radius bên trái ở trên */
+  border-bottom-right-radius: 20px; /* Border radius bên trái ở dưới */
+}
+
+.chat-friend:focus {
+  outline: none; 
+  border: none; 
+}

@@ -1,9 +1,15 @@
+.frameChat{
+    margin-bottom: 100px;
+    position: relative; /* Sử dụng vị trí tương đối cho frame-chat */
+    margin-top: 170px;
+}
+
 /* contener friend */
 .friend-frame-chat{
     display: flex;
     justify-content: flex-start;
-    margin: 12px 10px 10px 10px;
-    position: relative; /* Sử dụng vị trí tương đối cho frame-chat */
+    margin: 15px 10px 10px 10px;
+    position: relative;
 }
 
 .friend-avatar-container {
@@ -32,7 +38,7 @@
 .user-frame-chat{
     display: flex;
     justify-content: flex-end;
-    margin: 20px 10px 10px 10px;
+    margin: 15px 10px 10px 10px;
     position: relative; /* Sử dụng vị trí tương đối cho frame-chat */
 }
 

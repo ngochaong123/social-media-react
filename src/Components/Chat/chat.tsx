@@ -166,9 +166,9 @@ export default function chat() {
             <img src={Video} style={{width:"26px",height:"26px",marginBottom:"2px"}} className='img-text-chat' />
           </div>
           {/* write chat to friend */}
-          <div className="input-chat-container-friend">
-            <div className="search-icon"> </div>
-            <input className="input-log-friend" type="text" placeholder="Chat friend"/>
+          <div className="chat-container-friend">
+            <div className="emptyArea"> </div>
+            <input className="chat-friend" type="text" placeholder="Chat friend"/>
           </div>
           {/* sends chat or image or video */}
           <div className='icon-send'>

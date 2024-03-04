@@ -43,32 +43,37 @@ export default function mainContainer() {
 
           {/* video friend and user post */}
           <video className='video-stores-post' controls
-            controlsList="nodownload noplaybackrate"
-            disablePictureInPicture >
+            controlsList="nodownload noplaybackrate" // delete button dowloand, playbackspead
+            disablePictureInPicture //detele full screen
+            > 
             <source src={require('../../Video/v1.mp4')} type="video/mp4" />
           </video>
 
           <video className='video-stores-post' controls
-            controlsList="nodownload noplaybackrate"
-            disablePictureInPicture>
+            controlsList="nodownload noplaybackrate" // delete button dowloand, playbackspead
+            disablePictureInPicture //detele full screen
+            > 
             <source src={require('../../Video/v2.mp4')} type="video/mp4" />
           </video>
 
           <video className='video-stores-post' controls
-            controlsList="nodownload noplaybackrate"
-            disablePictureInPicture>
+            controlsList="nodownload noplaybackrate" // delete button dowloand, playbackspead
+            disablePictureInPicture //detele full screen
+            > 
             <source src={require('../../Video/v3.mp4')} type="video/mp4" />
           </video>
 
           <video className='video-stores-post' controls
-            controlsList="nodownload noplaybackrate"
-            disablePictureInPicture>
+            controlsList="nodownload noplaybackrate" // delete button dowloand, playbackspead
+            disablePictureInPicture //detele full screen
+            > 
             <source src={require('../../Video/v4.mp4')} type="video/mp4" />
           </video>
           
           <video className='video-stores-post' controls
-            controlsList="nodownload noplaybackrate"
-            disablePictureInPicture>
+            controlsList="nodownload noplaybackrate" // delete button dowloand, playbackspead
+            disablePictureInPicture //detele full screen
+            > 
             <source src={require('../../Video/v5.mp4')} type="video/mp4" />
           </video>
 

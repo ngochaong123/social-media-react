@@ -24,10 +24,10 @@ export default function Menu() {
   return (
     <main>
       <Header />
-
+        {/* sidebar menu in left */}
         <div className='sidebar-log-left'>
           <h1 className='nametab'> Menu</h1>
-
+          {/* button choose nguoi dung */}
           <button className='sidebar-button-left'>
             <img src={User1} className='sidebar-icon-chat-left'/>
             <div className='Name-icon-chat'>Người dùng</div>
@@ -50,26 +50,30 @@ export default function Menu() {
           </button>
         </div>
 
+        {/* user and friend post img and video */}
         <Post />
-
+        
+        {/* sidebar menu in right */}
         <div className='sidebar-log-right'>
           <h1 className='nametab'>Người liên hệ</h1>
-
+          {/* search friend */}
           <div className="input-log-container-friend">
             <div className="search-icon">
               <img src={Magnifier}/>
             </div>
             <input className="input-log-friend" type="text" placeholder="Tìm bạn bè" />
           </div>
-
+          {/* friend 1 */}
           <button className='sidebar-button-right'>
             <img src={u1} className='sidebar-icon'/>
             <div className='Name-icon-post-right'>Người bạn 1</div>
           </button>
+          {/* friend 2 */}
           <button className='sidebar-button-right'>
             <img src={u2} className='sidebar-icon'/>
             <div className='Name-icon-post-right'>Người bạn 2</div>
           </button>
+          {/* friend 3 */}
           <button className='sidebar-button-right'>
             <img src={u3} className='sidebar-icon'/>
             <div className='Name-icon-post-right'>Người bạn 3</div>

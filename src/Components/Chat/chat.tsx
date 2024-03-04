@@ -45,21 +45,26 @@ export default function chat() {
 
       {/* sidebar left friend user */}
       <div className='sidebar-left-chat'>
+        {/* frame  */}
         <div className='menu-chat-left'>
           <h1 className='nametab-left'> Đoạn chat</h1>
-
+          {/* search friend */}
           <div className="input-log-container-friend">
             <div className="search-icon">
+              {/* icon search */}
               <img src={Magnifier}  />
             </div>
+            {/* input */}
             <input className="input-log-friend" type="text" placeholder="Tìm bạn bè" />
           </div>
         </div>
 
         {/* list friend  */}
         <button className='sidebar-button-left-chat' style={{marginTop:"100px"}}>
+          {/* avatar friend */}
           <img src={u10} className='sidebar-icon-chat'/>
           <div>
+            {/* name friend */}
             <div className='Name-icon-chat'>Bạn bè 8</div>
             <div className='chat-friends'>Bạn bè 8</div>
           </div>
@@ -179,18 +184,22 @@ export default function chat() {
 
       {/* sidebar information friend chat with user */}
       <div className='sidebar-right-chat'>
+        {/* background  */}
         <img src={Bg} className='Bg-right-chat'/>
+        {/* avatar user */}
         <img src={u10} className='avatar-chat-right'/>
-        
         {/* infor friend */}
         <div className='inforUser'>
           <div className='infor-user-chat'>
+            {/* name friend */}
             <h3 style={{cursor:"default"}}> Bạn bè 8 </h3>
+            {/* status */}
             <div className='status-user'> Online </div>
-             <div className='chose-inforUser-chat'>
-              <img src={User} className='icon-chose-chat-user'/>
-              <img src={StopBell} className='icon-chose-chat-bell'/>
-            </div>
+              {/* frame  */}
+              <div className='chose-inforUser-chat'>
+                <img src={User} className='icon-chose-chat-user'/>
+                <img src={StopBell} className='icon-chose-chat-bell'/>
+              </div>
           </div>
         </div> 
         

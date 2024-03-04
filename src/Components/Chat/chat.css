@@ -205,6 +205,7 @@
     grid-template-columns: auto auto auto;
     padding: 10px;
     gap: 10px;
+    margin-bottom: 80px;
 }
 
 .media-img-sidebar img{
@@ -252,13 +253,15 @@
 }
 
 .call-chat-icon:hover{
-    background-color: #c9bebe;
+    background-color: #c9d6ff;
+    background: linear-gradient(to center, #e2e2e2, #c9d6ff);
     border-radius: 50px;
+    border: none;
     opacity: 0.8;
 }
 
 .call-chat-icon:active{
-    background-color: #c9bebe;
+    background-color: #d32e2e;
     border-radius: 50px;
     opacity: 0.6;
 }
@@ -328,8 +331,8 @@
   height: 34px;
   border: 1px solid #ccc;
   border: none;
-  border-top-right-radius: 20px; /* Border radius bên trái ở trên */
-  border-bottom-right-radius: 20px; /* Border radius bên trái ở dưới */
+  border-top-right-radius: 20px; /* Border radius bên phải ở trên */
+  border-bottom-right-radius: 20px; /* Border radius bên phải ở dưới */
 }
 
 .chat-friend:focus {

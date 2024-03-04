@@ -25,8 +25,9 @@ const Header = () => {
                 <img src={Logo} alt="Logo" className="Logo-Log" />
             </Link>
             
-            {/* found  */}
+            {/* search friend, group */}
             <div className="input-log-container">
+                {/* icon search */}
                 <div className="search-icon">
                     <img src={Magnifier}/>
                 </div>

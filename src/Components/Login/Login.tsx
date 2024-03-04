@@ -53,13 +53,13 @@ function App() {
             <div className="toggle-container">
                 <div className="toggle">
                     <div className={`toggle-panel toggle-right ${activePanel === 'signin' ? 'active' : ''}`} >
-                        <h1>Welcome Back!</h1>
-                        <p>Enter your personal details to use all of site features</p>
+                        <h1>Chào mừng trở lại</h1>
+                        <p>Hãy đăng nhập tài khoản của bạn vào COZYCAT</p>
                         <button className="hidden" onClick={() => togglePanel('signin')} >Đăng ký</button>
                     </div>
                     <div className={`toggle-panel toggle-left ${activePanel === 'signup' ? 'active' : ''}`}>
-                        <h1>Hello, Friend!</h1>
-                        <p>Register with your personal details to use all of site features</p>
+                        <h1>Chào bạn</h1>
+                        <p>Đăng ký thông tin của bạn vào COZYCAT</p>
                         <button className="hidden" onClick={() => togglePanel('active')} >Đăng nhập</button>
                     </div>
                 </div>

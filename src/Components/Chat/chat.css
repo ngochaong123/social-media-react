@@ -51,7 +51,7 @@
 .chat-friends{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
-    margin-left: -15px;
+    margin-left: -29px;
     margin-top: 4px;
 }
 
@@ -253,17 +253,15 @@
 }
 
 .call-chat-icon:hover{
-    background-color: #c9d6ff;
     background: linear-gradient(to center, #e2e2e2, #c9d6ff);
     border-radius: 50px;
     border: none;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 .call-chat-icon:active{
-    background-color: #d32e2e;
     border-radius: 50px;
-    opacity: 0.6;
+    opacity: 0.9;
 }
 
 .contener-text-chat{

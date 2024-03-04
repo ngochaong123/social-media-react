@@ -26,7 +26,7 @@ export default function Menu() {
       <Header />
         {/* sidebar menu in left */}
         <div className='sidebar-log-left'>
-          <h1 className='nametab'> Menu</h1>
+          <h1 className='nametab'> Thông tin cá nhân </h1>
           {/* button choose nguoi dung */}
           <button className='sidebar-button-left'>
             <img src={User1} className='sidebar-icon-chat-left'/>

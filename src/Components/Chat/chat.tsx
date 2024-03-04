@@ -47,7 +47,7 @@ export default function chat() {
       <div className='sidebar-left-chat'>
         {/* frame  */}
         <div className='menu-chat-left'>
-          <h1 className='nametab-left'> Đoạn chat</h1>
+          <h1 className='nametab-left'>Người liên hệ </h1>
           {/* search friend */}
           <div className="input-log-container-friend">
             <div className="search-icon">
@@ -66,70 +66,70 @@ export default function chat() {
           <div>
             {/* name friend */}
             <div className='Name-icon-chat'>Bạn bè 8</div>
-            <div className='chat-friends'>Bạn bè 8</div>
+            <div className='chat-friends'>Online</div>
           </div>
         </button>
         <button className='sidebar-button-left-chat'>
           <img src={u1} className='sidebar-icon-chat'/>
           <div>
             <div className='Name-icon-chat'>Bạn bè 1</div>
-            <div className='chat-friends'>Bạn bè 1</div>
+            <div className='chat-friends'>Offline</div>
           </div>
         </button>
         <button className='sidebar-button-left-chat'>
           <img src={u2} className='sidebar-icon-chat'/>
           <div>
             <div className='Name-icon-chat'>Bạn bè 2</div>
-            <div className='chat-friends'>Bạn bè 2</div>
+            <div className='chat-friends'>Offline</div>
           </div>
         </button>
         <button className='sidebar-button-left-chat'>
           <img src={u3} className='sidebar-icon-chat'/>
           <div>
             <div className='Name-icon-chat'>Bạn bè 3</div>
-            <div className='chat-friends'>Bạn bè 3</div>
+            <div className='chat-friends'>Offline</div>
           </div>
         </button>
         <button className='sidebar-button-left-chat'>
           <img src={u4} className='sidebar-icon-chat'/>
           <div>
              <div className='Name-icon-chat'>Bạn bè 4</div>
-             <div className='chat-friends'>Bạn bè 4</div>
+             <div className='chat-friends'>Online</div>
           </div>
         </button>
         <button className='sidebar-button-left-chat'>
           <img src={u5} className='sidebar-icon-chat'/>
           <div>
             <div className='Name-icon-chat'>Bạn bè 5</div>
-            <div className='chat-friends'>Bạn bè 5</div>
+            <div className='chat-friends'>Online</div>
           </div>
         </button>
         <button className='sidebar-button-left-chat'>
           <img src={u6} className='sidebar-icon-chat'/>
           <div>
             <div className='Name-icon-chat'>Bạn bè 6</div>
-            <div className='chat-friends'>Bạn bè 6</div>
+            <div className='chat-friends'>Online</div>
           </div>
         </button>
         <button className='sidebar-button-left-chat'>
           <img src={u7} className='sidebar-icon-chat'/>
           <div>
              <div className='Name-icon-chat'>Bạn bè 7</div>
-             <div className='chat-friends'>Bạn bè 7</div>
+             <div className='chat-friends'>Online</div>
           </div>
         </button>
         <button className='sidebar-button-left-chat'>
           <img src={u8} className='sidebar-icon-chat'/>
           <div>
             <div className='Name-icon-chat'>Bạn bè 8</div>
-            <div className='chat-friends'>Bạn bè 8</div>
+            <div className='chat-friends'>Online</div>
           </div>
         </button>
         <button className='sidebar-button-left-chat'>
           <img src={u9} className='sidebar-icon-chat'/>
           <div>
             <div className='Name-icon-chat'>Bạn bè 8</div>
-            <div className='chat-friends'>Bạn bè 8</div>
+            <div className='chat-friends'>Online</div>
           </div>
         </button>
       </div>

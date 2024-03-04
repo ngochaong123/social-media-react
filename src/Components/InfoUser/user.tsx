@@ -64,14 +64,14 @@ export default function user() {
 
           {/* name user */}
           <div className='local-name'>
-            <h1> Name </h1>
-            <div> 350 friends </div>
+            <h1> Tên người dùng </h1>
+            <div> 350 người bạn </div>
           </div>
         </div>
         {/* edit profile user */}
         <button className='Edit-Profile-user'>
           <img src={Edit} loading="lazy" />
-          <div > Edit Profile </div>
+          <div>Sửa thông tin </div>
         </button>
       </div>
 
@@ -80,15 +80,15 @@ export default function user() {
         {/* introduction user */}
         <div className='introdution-user'>
           {/* title infomation person */}
-          <h4 style={{lineHeight:"2",marginBottom:"10px"}}> Introduction </h4>
-          <div> Living in VietNam </div>
-          <div> Teacher at ABC school </div>
-          <div> Birthday: 05/06/1996 </div>
+          <h4 style={{lineHeight:"2",marginBottom:"10px"}}> Thông tin cá nhân </h4>
+          <div> Sống ở Việt Nam </div>
+          <div> Làm việc tại công ty ABC </div>
+          <div> Sinh nhật: 29/07/2002 </div>
         </div>
 
         {/* images user */}
         <div className='img-user'>
-          <h4 style={{lineHeight:"2",marginBottom:"10px"}}> Images </h4>
+          <h4 style={{lineHeight:"2",marginBottom:"10px"}}> Ảnh cá nhân </h4>
           <div className='user-add-img'>
             <img src={img1} loading="lazy" />
             <img src={img2} loading="lazy" />
@@ -130,7 +130,7 @@ export default function user() {
             <img  src={Avatar} loading="lazy" className='icon-log-person' /> 
             <div style={{marginLeft:"10px"}}>
               {/* name user */}
-              <div style={{cursor:"default"}}> Name </div>
+              <div style={{cursor:"default"}}> Tên người dùng </div>
               {/* time post */}
               <div style={{
                 fontFamily:"inherit",
@@ -142,7 +142,7 @@ export default function user() {
             </div>
           </div>
           {/* write about post */}
-          <p className='p-post'>Puppy so cute! </p>
+          <p className='p-post'> Cún con dễ thương quá!!! </p>
           {/* image post */}
           <div className='container-img'>
             <img src={post3} loading="lazy" className='img-post-user' />
@@ -183,7 +183,7 @@ export default function user() {
             <img  src={Avatar} loading="lazy" className='icon-log-person' /> 
             <div style={{marginLeft:"10px"}}>
               {/* name user */}
-              <div style={{cursor:"default"}}> Name </div>
+              <div style={{cursor:"default"}}> Tên người dùng </div>
               {/* time post */}
               <div style={{
                 fontFamily:"inherit",
@@ -230,7 +230,7 @@ export default function user() {
             <img  src={Avatar} loading="lazy" className='icon-log-person' /> 
             {/* time post */}
             <div style={{marginLeft:"10px"}}>
-              <div> Name </div>
+              <div> Tên người dùng </div>
               <div style={{
                 fontFamily:"inherit",
                 fontWeight:"300",
@@ -280,7 +280,7 @@ export default function user() {
             <img  src={Avatar} loading="lazy" className='icon-log-person' /> 
             {/* time post */}
             <div style={{marginLeft:"10px"}}>
-              <div> Name </div>
+              <div> Tên người dùng </div>
               <div style={{
                 fontFamily:"inherit",
                 fontWeight:"300",

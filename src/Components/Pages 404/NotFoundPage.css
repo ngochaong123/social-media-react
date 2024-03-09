@@ -1,0 +1,18 @@
+.titlePage404{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh; /* Chiều cao 100% của viewport */
+}
+
+.titlePage404 h1{
+    position: absolute;
+    margin-bottom: 22%;
+}
+
+.titlePage404 img{
+    margin-top: 80px;
+    width: 37%;
+    height: 70%;
+}

@@ -1,3 +1,9 @@
+.notification-Localtion{
+    display: flex;
+    justify-content: end;
+    margin-right: -70px;
+}
+
 /* notification-container for bell */
 .notification-container {
     position: absolute;
@@ -6,9 +12,8 @@
     width: 350px;
     height: 600px;
     margin-top: 1px;
-    left: 76%;
     border-radius: 8px;
-    z-index: 10;
+    z-index: 5;
     overflow: hidden; 
 }
 

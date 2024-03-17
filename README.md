@@ -1,7 +1,7 @@
 # Social Media App
 
 ## Introduction
-This is a simple Social Media App built using React. It allows users to interact with each other through posts, comments, and likes.
+This is a simple Social Media App built using React. It allows users to interact with each other through share, comments, and likes.
 
 ## Getting Started
 1. Ensure you have Node.js installed on your machine.

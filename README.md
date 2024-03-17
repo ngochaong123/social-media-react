@@ -11,12 +11,6 @@ This is a simple Social Media App built using React. It allows users to interact
 5. Once the installation is complete, run `npm start`.
 6. Open your browser and visit `http://localhost:3000` to view the app.
 
-## Features
-- Users can create posts.
-- Users can comment on posts.
-- Users can like posts.
-- Responsive design for various screen sizes.
-
 ## Technologies Used
 - React
 - HTML

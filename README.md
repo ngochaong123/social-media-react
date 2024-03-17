@@ -1,4 +1,4 @@
-# Social Media App
+# Social Media Website
 
 ## Introduction
 This is a simple Social Media App built using React. It allows users to interact with each other through share, comments, and likes.

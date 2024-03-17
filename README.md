@@ -1,4 +1,4 @@
-# Social Media App README
+# Social Media App
 
 ## Introduction
 This is a simple Social Media App built using React. It allows users to interact with each other through posts, comments, and likes.

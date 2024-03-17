@@ -14,4 +14,4 @@ This is a simple Social Media App built using React. It allows users to interact
 - React
 - HTML
 - CSS
-- JavaScript
+- Typescript

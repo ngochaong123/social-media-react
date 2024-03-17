@@ -8,7 +8,7 @@ This is a simple Social Media App built using React. It allows users to interact
 2. Clone this repository to your local machine.
 3. Run `npm install` to install the necessary dependencies.
 4. Once the installation is complete, run npm start.
-5. Open your browser and visit http://localhost:3000 to view the app.
+5. Open your browser and visit http://localhost:3000 to view the Website.
 
 ## Technologies Used
 - React

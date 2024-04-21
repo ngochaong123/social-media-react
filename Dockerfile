@@ -12,7 +12,6 @@ RUN npm install
 
 # Sao chép toàn bộ mã nguồn vào thư mục làm việc
 COPY . .
-
 # Port mà ứng dụng sẽ lắng nghe
 EXPOSE 3000
 
